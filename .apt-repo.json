@@ -1,6 +1,5 @@
 {
     "Releases": [
-      "buster",
       "bullseye",
       "focal"
     ]
