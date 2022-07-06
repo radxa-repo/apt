@@ -1,0 +1,17 @@
+{
+  "libreelec-alsa-utils": "10.0.2-1",
+  "radxa-otgutils": "0.1-2",
+  "rsetup": "0.1-5",
+  "android-tools-adbd": "0.1-3",
+  "u-boot-radxa-e23": "2017.09-4",
+  "u-boot-radxa-zero": "2022.04-4",
+  "u-boot-radxa-zero2": "2022.04-4 ",
+  "u-boot-radxa-cm3-io": "2017.09-4",
+  "u-boot-radxa-cm3-rpi-cm4-io": "2017.09-4",
+  "u-boot-rockpi-4b": "2022.04-4",
+  "dthelper": "10.0.2-1",
+  "linux-mainline": "2",
+  "linux-rockchip-4.19": "2",
+  "u-boot-rock-5a": "2017.09-1",
+  "linux-rockchip-5.10": "2"
+}

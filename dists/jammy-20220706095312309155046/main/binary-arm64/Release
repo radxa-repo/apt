@@ -1,0 +1,9 @@
+Archive: jammy
+Component: main
+Origin: Radxa
+Label: Freight
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Architecture: arm64
+Date: Wed, 06 Jul 2022 09:53:12 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
