@@ -1,7 +1,7 @@
 {
   "libreelec-alsa-utils": "10.0.2-1",
   "radxa-otgutils": "0.1-2",
-  "rsetup": "0.1-5",
+  "rsetup": "0.1-6",
   "android-tools-adbd": "0.1-3",
   "u-boot-radxa-e23": "2017.09-4",
   "u-boot-radxa-zero": "2022.04-4",

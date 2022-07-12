@@ -1,0 +1,38 @@
+Origin: Radxa
+Label: Freight
+Suite: bullseye
+Codename: bullseye
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Components: main 
+Architectures: all arm64
+Date: Tue, 12 Jul 2022 07:42:08 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
+MD5Sum:
+ 616ec73349f07b805e68d117d0747f52 18664 main/binary-arm64/Packages
+ 0b6655737ce689031962c2ba21dbdbf0 5802 main/binary-arm64/Packages.gz
+ 0afb7bd909f4fb8fb2f7bca0f6f39577 204 main/binary-arm64/Release
+ 6c93f07478c505f5bb5629408ca893d8 3822 main/binary-all/Packages
+ aa3ee3bf5db3e2554e2dce758854f947 1546 main/binary-all/Packages.gz
+ a560cde226e8a5091ed007545827f14a 202 main/binary-all/Release
+SHA1:
+ 781641ec3bb775469757824cf6ab833037b37692 18664 main/binary-arm64/Packages
+ 9f096a5349cdf531034e4d7e3377e7b90d63254c 5802 main/binary-arm64/Packages.gz
+ 3d7c24c67776f30cc4dc9b77396b1a6ba08f2bbf 204 main/binary-arm64/Release
+ 8e2cabfda5c6ef652d0de184e24c331fb1f86811 3822 main/binary-all/Packages
+ af47470a7beb89d21ae3c2d63aa7acd8d586c575 1546 main/binary-all/Packages.gz
+ 8b7e0243b81dbf943e37c38582f58dc538e13907 202 main/binary-all/Release
+SHA256:
+ 33239735fde70353206d47e8ef6717d0fca0ebb78a7dcd9ada3d2ff8120a156c 18664 main/binary-arm64/Packages
+ 5f6546658358b770328b71c5ddd360527039f3655030933483c3e46b37bdd6fd 5802 main/binary-arm64/Packages.gz
+ ba16db221443d0f18bcd542c0287d557cbfb4fbc19b4e10be8f2badc69e9665f 204 main/binary-arm64/Release
+ a9d2f1099802d044eb53b9564c26b41464c7acac31afc66b27549fca217b1d4e 3822 main/binary-all/Packages
+ 883833a692b4acfa423a63e8d6967754a678b9b2d966dc2e850afe2db9cb21f9 1546 main/binary-all/Packages.gz
+ d07856fc63ddbfc4f58730ccde8ed289cb8b77793f8c01fec1b637439a617c5c 202 main/binary-all/Release
+SHA512:
+ 72dc0ecc3c1b9708a853805ac379c95276979eae7e55cfb8d9d7cd64119061e63dad77a1021dd0bde8b829170fc2cb734046b0118c971280fe028f82efe49fcd 18664 main/binary-arm64/Packages
+ 7b27f3d3327d5876eadaab91ebe75bcf3cc87f16bc3313d53b91bcae3059580bfc921297fa31bedc8a544dedf9cb6b5104f7ccb78d6350caaf0eaa28162b14de 5802 main/binary-arm64/Packages.gz
+ 6e555c6d55fbf3fb5848956df153335b9313067e05d5234d50a17699f2b411540bf8a8a74fc72e432ecbffd5fe7acf37a245ee14c226c7c6932ed35092a5fbb5 204 main/binary-arm64/Release
+ 2f8bf5b23f26c92a973b05176822ca242d2b2b0dc486e7b6d4828cb3620df6f92b2feb683e00af40069a71cb6d688ef9e4eccbd1199a504cefc0314cfb247e16 3822 main/binary-all/Packages
+ 81634df95ba497aa11daeddad60f7dd15c33567370d8eb29cc9d3d385a66ddaef513aca4e3fdaf9aa090c00d32920768493b5db20f08e7c472b783561890959d 1546 main/binary-all/Packages.gz
+ 6f891928fbcd533f3299d3461093bd6e138b2894aedb03bc565a5ba03c3052fce3ef595ed2581df64f03299463c260e1221444cc9b1fe9a557acc71640f3a958 202 main/binary-all/Release
