@@ -1,0 +1,3553 @@
+Package: dthelper
+Version: 10.0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2
+Section: admin
+Priority: optional
+Homepage: https://github.com/radxa-pkg/dthelper
+Description: Device tree helper from LibreELEC
+Multi-Arch: foreign
+Replaces: dthelper
+Conflicts: dthelper
+Provides: dthelper
+Filename: pool/focal/main/d/dthelper/dthelper_10.0.2-1_all.deb
+MD5sum: e245bf638c4509a7a5240f2a165103b6
+SHA1: 8f49fc29c87e585893a50238614efdfbda3a0265
+SHA256: deb81dc17113eafca0db14408a72429786e8bec41ffc88b7faed23a31a869979
+SHA512: 688d83d0e4894270b5ab7d9f960f08da2c562564cee914d1cf38ff827a0c5a10e28ebd0443b485f9b426630e7fee6a573ba6988859945d91260d64c38b1b9b65
+Size: 2028
+
+Package: libreelec-alsa-utils
+Version: 10.0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 4
+Depends: dthelper
+Section: admin
+Priority: optional
+Homepage: https://github.com/radxa-pkg/libreelec-alsa-utils
+Description: ALSA helper from LibreELEC
+Multi-Arch: foreign
+Replaces: libreelec-alsa-utils
+Conflicts: libreelec-alsa-utils
+Provides: libreelec-alsa-utils
+Filename: pool/focal/main/libr/libreelec-alsa-utils/libreelec-alsa-utils_10.0.2-1_all.deb
+MD5sum: 4826a6b9fd2a9f16b60ec1b4c3cd4037
+SHA1: abaccc5297115439482725ee387a2cab0f50f731
+SHA256: e99f996470e3c547d7574cc1973b5ede9978f846fc3aff443e19e39fd03a43c1
+SHA512: 8b1752f66697365866f406b7b3535fae61444fa92bbd23e45fdf44269bd449e0bb07bbd6199658392953c85c19aa2bd3404c572a81e5ca7a2e5025b78fbd936e
+Size: 2908
+
+Package: linux-firmware-image-4.4.154-1-rk3399
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 588
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.4.154-1-rk3399
+ This package contains firmware from the Linux kernel, version 4.4.154-1-rk3399.
+Filename: pool/focal/main/l/linux-4.4.154-1-rk3399/linux-firmware-image-4.4.154-1-rk3399_4.4.154-1-86a614bc1_all.deb
+MD5sum: 7dc3f7f9f7d29a7a9fab2415d2ce4311
+SHA1: a07d5b7ef21fe97d94c132f24b1e62b883679533
+SHA256: 5640d3ea0aea217357dea4b760eef198e41585a77bc049ee437851db8e822dfe
+SHA512: 8395ad90841ddeaaf9214d85ffd72367de35cf7b2c51506808ec9d5054fe7332c77ca6aec9f31728394686164c335d517f3ed7b03ade7e11aec4449296696503
+Size: 186548
+
+Package: linux-headers-4.4.154-1-rk3399
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 70745
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.4.154-1-rk3399 on all
+ This package provides kernel header files for 4.4.154-1-rk3399 on all
+ .
+ This is useful for people who need to build external modules
+Filename: pool/focal/main/l/linux-4.4.154-1-rk3399/linux-headers-4.4.154-1-rk3399_4.4.154-1-86a614bc1_all.deb
+MD5sum: ef2d58f0923e4c3c79b391f7d9c98a46
+SHA1: e7fccedc790485a3fe0c423d02ede859e4ad997b
+SHA256: 319e67f2364d0d23ad84d75d89dd566e121f1b8b4a4e65d9dd987c87bca4acde
+SHA512: 60a2946686c2ed01726de13f7afc0e78e99db8a9bccb6e68d0a3acbba564e51bf4d74f72f42598d399828c9b9ba1402da069a5a4ad89291e176bdc76abc486a6
+Size: 10147968
+
+Package: linux-headers-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for latest
+Filename: pool/focal/main/l/linux-headers-latest/linux-headers-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 2aad0874b68ecc98c6998781d314e8ca
+SHA1: 2114bf00bbc766e60e9633011c0c2b28c3686b37
+SHA256: 87d26356049d4d716df1da4853c8239acab199108c420a52fb997deb9ed07125
+SHA512: 15c56630b1a220b190875b1ec8709ad031a06615670f0121ba04c27d37f9371ebf74d9a28d1b76debda82e58cfca99330d477e877df9e8cc59e8df56c50d6acf
+Size: 1100
+
+Package: linux-headers-radxa-cm3-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-cm3-io-latest
+Filename: pool/focal/main/l/linux-headers-radxa-cm3-io-latest/linux-headers-radxa-cm3-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 4817e22dea9f72195be085d8112d2ae1
+SHA1: 8310ee4837651ee53799ffa68697cc04840fcc2b
+SHA256: 4a937c3b9e16892b2df669532a29a290999c1b8da9add9391e2a1cbea59505af
+SHA512: 7155e7de671bffac487730ad166c2a76e1569bc80ed89cdc178f31fa54fc783ea6ca04027af016be3f06dcad8dfef5bae6e814b212117d7c5664e4a6bb34f03d
+Size: 1132
+
+Package: linux-headers-radxa-cm3-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-cm3-io
+Filename: pool/focal/main/l/linux-headers-radxa-cm3-io/linux-headers-radxa-cm3-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 93a73b9e8233419043e07f3d9241616b
+SHA1: 3580be69abdd0405ddaddd3a7ab9f19eb60cb4a6
+SHA256: 8d7cf28b2afb7b1cb3a8de3abde27535b3e70b52325bf1746b4cfab6d5b6dbb0
+SHA512: ef0ef056531d8a14a38263488816c384fde593ed5e74d5f6aa206990a43460258f84bf06e36bf872059197b894c025c1cfc05d6f7d3d047170f7b578648d79ba
+Size: 1124
+
+Package: linux-headers-radxa-cm3-rpi-cm4-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-cm3-rpi-cm4-io
+Filename: pool/focal/main/l/linux-headers-radxa-cm3-rpi-cm4-io/linux-headers-radxa-cm3-rpi-cm4-io_4.19.193-2-bb9219a_all.deb
+MD5sum: cd51f9a1dc6087655617ce75869807c1
+SHA1: 491eec8d9b84f9199b532cbb1bbaa590802e2602
+SHA256: fa1ce48056e62d38d9bcd47ecc0c84adbfe693e1b676745b9ce4f133b5ae1157
+SHA512: 61f16c262f0d30a3794f41bbb387fbf52479c64a3f6b9e0153c62652e72d1f5bebf070ee0e52b31128c4171b1108ef9eed8e24fbf274e85d5f7b3803e2b45240
+Size: 1148
+
+Package: linux-headers-radxa-cm3-sodimm-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-cm3-sodimm-io-latest
+Filename: pool/focal/main/l/linux-headers-radxa-cm3-sodimm-io-latest/linux-headers-radxa-cm3-sodimm-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: dc318ab405188053aea49adfc85cf068
+SHA1: d9f753d9a8cde1cf0ed5936f3c8d2b5035b0f58f
+SHA256: 91a75bbc03a0f97836583edfa0b0340401e3eff1a59a6359c193ac995977843a
+SHA512: 0102394715ec2bfd77b243aa284351bb4e0a23913c289dd7ecbb06c24501f269a462abf7809e3a68422c0ca16bc0057f08009ddf287dc67fe86452c1c2d5d0a1
+Size: 1148
+
+Package: linux-headers-radxa-cm3-sodimm-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-cm3-sodimm-io
+Filename: pool/focal/main/l/linux-headers-radxa-cm3-sodimm-io/linux-headers-radxa-cm3-sodimm-io_4.19.193-2-bb9219a_all.deb
+MD5sum: ac3aee890493b4adc04e7e8122d60a77
+SHA1: 4dcf681862a03d88ff0ec43a2fcf174d763bc47e
+SHA256: 70396c97ce2e2f12dfbba8b7b46024b475e6c90370acf60783a4476b14f3ea82
+SHA512: 0a02e9b35bbb7355da0b553dcdaec50a734275513a549a9cc2b48469a2acc54c7f7e9b6ececee7a45a9c4c620cccbf30adc5985574d404b68131460942c51725
+Size: 1144
+
+Package: linux-headers-radxa-e23
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-e23
+Filename: pool/focal/main/l/linux-headers-radxa-e23/linux-headers-radxa-e23_4.19.193-2-bb9219a_all.deb
+MD5sum: 46da61eaf32b6afd4b7d072eca96d736
+SHA1: 11345a83624fc9af2f5dd34a993eb299f91a44aa
+SHA256: 339949c87285f4da08717507e8a812e36b9c07778dac53597e8847048fe44391
+SHA512: 14bf0c19a36773ed775048650b81f6fc3e4ecbb8802c85c969d38c425812d4022a9119bc7381b97d90048c9cf2914b49ac989e4f8e14f258b92c2510da83d286
+Size: 1116
+
+Package: linux-headers-radxa-e25-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-e25-latest
+Filename: pool/focal/main/l/linux-headers-radxa-e25-latest/linux-headers-radxa-e25-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: a40ad8bf8b80f9c7b71dbfa944371996
+SHA1: 2737fba75ce9a011347e965cba0a106d7abc5c1b
+SHA256: 197eb0b55e11a8c0a25096b480892049995ccc808487b00aa2b6161547e9b172
+SHA512: 9cd09a42ded90fa89977083131f14d5626b6495766f3297715fa2282922551d2fed1dfa40df35ecd805acd51acc805e84e0b2bfb4307754f20dcc270d3181886
+Size: 1132
+
+Package: linux-headers-radxa-e25
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-e25
+Filename: pool/focal/main/l/linux-headers-radxa-e25/linux-headers-radxa-e25_4.19.193-2-bb9219a_all.deb
+MD5sum: fd223e93c5641798beadf4a7dd1eadd7
+SHA1: 261b4728d3254bf0e567fea0c0600d7d96fbf6f6
+SHA256: bc6c2ce7a13b1d18a00bcdfcf170b948fc93a95d2fe4ead03faa6c456751d7ba
+SHA512: dffbc5c77959207e9823e8a363b956493b8a5942b335466615584d2219f69fed4726df1176bc7188494f79277cdfc5677e4a5276f48177519d7606dff46de3a0
+Size: 1112
+
+Package: linux-headers-radxa-nx5-io
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for radxa-nx5-io
+Filename: pool/focal/main/l/linux-headers-radxa-nx5-io/linux-headers-radxa-nx5-io_5.10.110-1-d7afc14_all.deb
+MD5sum: 37903c49759a9a20bf8eeceddb68e7aa
+SHA1: 7802d2f6a56329f003abe952fd29a1b976b9686c
+SHA256: 2d45d6c6c918258c193e8ab54ed2ae6a4f151445f144600d077daafed2f0c481
+SHA512: 9e4b3b36ee1d684f1e09da5f4cd9f5679624d96c45b57cc108bba208a2961a38735b1aecf17e4b802c272836b77a781be2c1d3157435d25cb21b6659ce6f215c
+Size: 1124
+
+Package: linux-headers-radxa-zero2-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux header package for radxa-zero2-stable
+Filename: pool/focal/main/l/linux-headers-radxa-zero2-stable/linux-headers-radxa-zero2-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 7086b4a28067aa8c14cdfd3afcb5a9fb
+SHA1: a7adf1322f0c1e677576da76e7b39da43904fd97
+SHA256: 1f144a7301ade109e950f7dd0c3eb30924808ac98e397cf83c6306af134a846c
+SHA512: e037e6295004629ce40a11fecf67c25f107667fc1db9e304ffc27e087b73974357585a91152d58555460ca05a867dab951fd65fbc8e18cf889948889effbdecc
+Size: 1136
+
+Package: linux-headers-radxa-zero2
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-zero2
+Filename: pool/focal/main/l/linux-headers-radxa-zero2/linux-headers-radxa-zero2_6.1.12-1-bb9219a_all.deb
+MD5sum: 3dbd451765e1f822cff001727a034417
+SHA1: cdf874827dd130c0e37816e82d5226a396c3e68d
+SHA256: 37abc54447a2277b50dbb220e03c4f9b7ad95c11bff615790fb1303447b529e4
+SHA512: c8053ca4af71b23588f2569e261350c1153bfd8bf6e9a2a16f7973b4fa570db61cfffad3ad43f39682d3bdfac62e6cf33487a454bb159279acd8eb6c8a4ddfef
+Size: 1116
+
+Package: linux-headers-radxa-zero-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux header package for radxa-zero-stable
+Filename: pool/focal/main/l/linux-headers-radxa-zero-stable/linux-headers-radxa-zero-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 5d36a07e67ff90c08108c1160cc56b8b
+SHA1: a5ca892acefef7e83bb4fd5aaf58e79713887d29
+SHA256: d5795aefd7a8addbb3ac760e28a59b20e657ea278bae695f5c054297c0af50d8
+SHA512: 7dfc88093544f39d14ef062e9713f775f060e4b9a2c9e032a6bc1992e2ee3629d57c4eb457fd5abd395d90c87d28e5540b553304880b3eba5baa6c03155ae524
+Size: 1128
+
+Package: linux-headers-radxa-zero
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-zero
+Filename: pool/focal/main/l/linux-headers-radxa-zero/linux-headers-radxa-zero_6.1.12-1-bb9219a_all.deb
+MD5sum: c496a06c56f370b51274d9ecdd2a1fed
+SHA1: a067da6bdc449c74c8bdddf77b6afb7860d81125
+SHA256: cad7ba4b24801a4b2c2ac507424d26f9982dfd55f1447e61770c12695aec76df
+SHA512: 536bdeddde2d8e405e430f9cdc696ba3073f9ef9ecf8ddb46c5bd2a575b80b420b6b4aaa0e09452833f0b67e028beb61ff32396401805508a168209397df8fc6
+Size: 1124
+
+Package: linux-headers-rk356x
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rk356x
+Filename: pool/focal/main/l/linux-headers-rk356x/linux-headers-rk356x_4.19.193-2-bb9219a_all.deb
+MD5sum: 5150eae8aec92ec62338dbe94962a54e
+SHA1: 90c906e367eb23bc0f599c366bcc2228387f3024
+SHA256: 804d29e00a67875a666049b61cb2f8713f852516ddd3e3af6fea66e5c4f2be21
+SHA512: 5f8fae8f34d195aecd59ed0c3d033d0212e42ffc925d60c06b2dbb1156dea32b07c592cd7dc1f42ffedfd9b18342e1472e579b3ed33028aba5093dd0d9602264
+Size: 1108
+
+Package: linux-headers-rk3308
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux header package for rk3308
+Filename: pool/focal/main/l/linux-headers-rk3308/linux-headers-rk3308_4.4.143-1-f60a0f3_all.deb
+MD5sum: 37e6f8907d73750e6b92092d7eb31237
+SHA1: 0a4747e9429319bacedbdfe3c804288691bf6223
+SHA256: 284bfa69f615adac8174a4849035f2f1adf185ef8252712ad1519350d7669aa9
+SHA512: 2c2f2e668f16133db70fe49935a1798b6d535ad05aae838d3e2e4bccbfdb1b304470b1c6881dcc74bee537f510508c6b37530e939471411a94394a6ba08a4b7a
+Size: 1108
+
+Package: linux-headers-rk3328
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux header package for rk3328
+Filename: pool/focal/main/l/linux-headers-rk3328/linux-headers-rk3328_4.4.194-1-f60a0f3_all.deb
+MD5sum: 59fe2c596e7a9ab711287761239e272e
+SHA1: ad06b68e239030a7a0a2754d5d36c8c5779c4648
+SHA256: 7919bfdd659fb2e65a5cbe987fe6bf81c1c754f4f98815c3f596a28c261ec3f4
+SHA512: ca5cb7862f7cb798a631275b9416cd8df6e663990a541f6a5d4fc95719919440ab2bea04bf2e87c6b1676d38ff90a18ec606759742d4903b6f5feaf06e038d89
+Size: 1108
+
+Package: linux-headers-rk3399pro
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux header package for rk3399pro
+Filename: pool/focal/main/l/linux-headers-rk3399pro/linux-headers-rk3399pro_4.4.167-1-f60a0f3_all.deb
+MD5sum: 24e30e1c9f609c976750cc85b77fbdf7
+SHA1: abb706122c4381b35b223fabb5240de92d14ac9e
+SHA256: 8278e614f9adcfef06e59d183c8200e738a1dd27e58992dd86f441cba2b8895a
+SHA512: de6767d1c76c652cf363bebb95e1f53c40f7b8df68900a31c8957beed3c04168f911a4aef0191d7c5c63adc0b3c5de331bc9a415b66d56e6d2934c14b766e232
+Size: 1116
+
+Package: linux-headers-rk3399t
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3399t
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399t
+Description: Radxa virtual Linux header package for rk3399t
+Filename: pool/focal/main/l/linux-headers-rk3399t/linux-headers-rk3399t_4.4.194-1-f60a0f3_all.deb
+MD5sum: 073973a3da252a97ac555e6f5c50d18f
+SHA1: 9a46f28ffe442b3b274e57c3e0db37b7427f5526
+SHA256: 894b6ed59f7427292f6dfd8bf76f007cbf71e822caf33e6c531782ffabf02890
+SHA512: 3af2edfe78b883b464b659d78ef802cdd735f3942e7e61792fafef47b9a8294e6eef1c26f5a544ec0fa3e49536eba851fe2ea231cb5736fdfbbe7b8cce52490b
+Size: 1112
+
+Package: linux-headers-rk3399
+Version: 4.4.154-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.154-1-rk3399
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399
+Description: Radxa virtual Linux header package for rk3399
+Filename: pool/focal/main/l/linux-headers-rk3399/linux-headers-rk3399_4.4.154-1-f60a0f3_all.deb
+MD5sum: 2b97be909ccff36872a73a45e034993d
+SHA1: ae85b113cea988ac05373924e1959141ada96703
+SHA256: dc416409fb18e80aa2236b8600769de0f2c212020c34ddfbe97d2c750a709db2
+SHA512: b331338296422681ae0cc9071b4291233bf091e752a9218b31e197c9f01bdd9689c3743f8a4a62aa5c3e705f7f302e43d77190385bddd4a04177fb315fb43076
+Size: 1108
+
+Package: linux-headers-rk3588
+Version: 5.10.66-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.66-1-rk3588
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3588
+Description: Radxa virtual Linux header package for rk3588
+Filename: pool/focal/main/l/linux-headers-rk3588/linux-headers-rk3588_5.10.66-1-f60a0f3_all.deb
+MD5sum: 61636fdb8662a1f52f097bdfd6ca0fd0
+SHA1: a51bfbf529014e767b609eec4ffe79bb9a3814a2
+SHA256: 0bcf31ac58f70731e2fe609555ece7a47f0cfdc4556ecfff5d6a680b1a1a0813
+SHA512: 894dc5ec3be04ef0be453314ccabd6ed862682a1ff6c3befb3f9b9573c2dfa8ab92c6f78ea1b3858f68b17cba29753526ac06736448109013f37874afaeb223d
+Size: 1108
+
+Package: linux-headers-rockchip
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rockchip
+Filename: pool/focal/main/l/linux-headers-rockchip/linux-headers-rockchip_5.10.110-1-d7afc14_all.deb
+MD5sum: 2ce2dcbd7cdd21f88e63b79c7f4843fa
+SHA1: 4a73b5d1161514d4e926eda7c777137ff350d885
+SHA256: dc20a93cfb41f46e5f61dd57fa87e8861da7fc3ba0f735f57ecc01d1734b7366
+SHA512: 29da73c469003e6d1e4331e945bf6922ef81d36b1dfc4cf12f8c234d557af8a2cfcc7ba49bae101121df44f38d5d7446145a7e50c86ac7b5d8f58ac1db5f42bc
+Size: 1108
+
+Package: linux-headers-rock-3a-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-3a-latest
+Filename: pool/focal/main/l/linux-headers-rock-3a-latest/linux-headers-rock-3a-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: f653a079d59dc4ee6218208e7d8eaa4a
+SHA1: 082c4b8874df34dead6292a910a0a2dc6fddee48
+SHA256: 82a3da8e0d7fe3f7b885b36723488803d2a2e5bf6dfcace282857b88e91e801d
+SHA512: 459ab9990db94ce80978051c7f1afa3b55d187910bd8b3e9f4df116a1edc7797a72c27441db178bba121ea210729fb50feb75a9cab0bffaf597c32f4764c6bb7
+Size: 1124
+
+Package: linux-headers-rock-3a
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rock-3a
+Filename: pool/focal/main/l/linux-headers-rock-3a/linux-headers-rock-3a_4.19.193-2-bb9219a_all.deb
+MD5sum: e0948e5d0767cd7570f7c8df38d4f4c4
+SHA1: 300589ecf5e8b1e855a0b043584a26cd173c070e
+SHA256: 3f706c0e8e1689ff6e8e35f4bedd6887ae7806c9f166d2e9a6122d287e27bd1e
+SHA512: fbe084e25c56a9d726d40065e5f0a48cb06edc744978e56f3f77317d6f4d7186f1e503352cb429da35ada30999179814aea3b17e13c0c1c47255056c3788a426
+Size: 1112
+
+Package: linux-headers-rock-3b
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rock-3b
+Filename: pool/focal/main/l/linux-headers-rock-3b/linux-headers-rock-3b_4.19.193-2-bb9219a_all.deb
+MD5sum: 383dbb2f9f72722839e4e4bf5d7f6481
+SHA1: 4359787370ba91af0b0c09ca8621e59a3523f27c
+SHA256: 81e188fea73e6b2fcc2bc5f4f7c3890dddbd51d05edc601c699382aea0f8f192
+SHA512: 02e973fa307bd68797cf1b155a9417f93259782e34b258c7df534cfcd950c4c892348507c96c5b6e8c1d049513528e0b818fcb787a1f4bfe3cfae1e8a374dc41
+Size: 1112
+
+Package: linux-headers-rock-3c
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rock-3c
+Filename: pool/focal/main/l/linux-headers-rock-3c/linux-headers-rock-3c_4.19.193-2-bb9219a_all.deb
+MD5sum: ba2565050ba8b57d9bfbcd7b183a9d63
+SHA1: a6562d72588f9fbbcb9b6f43d9c5f06ecbee95de
+SHA256: 4b9e45f430420bcd9d385dc414423f0676ec5e883c5461fb67e78d72ee61a5b7
+SHA512: 9ff0d9b5deb5efbd43aa270a88af7dfe57a23c338c585e29830563bd555610f14c4decc9bb3ecdbe1e3fe56083af9c6b07b2bd2bc9aeba3de4adbf7f188e31ef
+Size: 1112
+
+Package: linux-headers-rock-4c-plus-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-4c-plus-latest
+Filename: pool/focal/main/l/linux-headers-rock-4c-plus-latest/linux-headers-rock-4c-plus-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: ca8ecbfbb6aa90d9e9bc2a2ed70c657e
+SHA1: 3394c173f9b9d08b7b2cf19138c538b50b3e7c76
+SHA256: 2580e527a009a7f4e5b2f588b635f95f15bceaa566d87e2bec6a2157d1b70afe
+SHA512: 80541b84326fedbdfbb35e0aad07a6cb637e295cc790310d22bb7e88252bd4badc737cdd77516dde58a20d8695844fc6a8d87ef67be3820851eea2e0f1d2cd0d
+Size: 1140
+
+Package: linux-headers-rock-4c-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-4c-plus
+Filename: pool/focal/main/l/linux-headers-rock-4c-plus/linux-headers-rock-4c-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: ee471eba544aa8e37ca9d485c84a82e1
+SHA1: d9eb4e872d2894c3f5477691c9187aab185afbe5
+SHA256: 0e7055b44416f9cd5a272d12b350b86be342d5c11f8f10931ca38238fcf72797
+SHA512: 5fb845da645b7baf3fce00171ef50770eeaf0e571f7955fafc41cfb52357214b7c3da3210e23522a6cb31a730235247eb67a587058b9e83e12c40b508429f86d
+Size: 1124
+
+Package: linux-headers-rock-4se
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-4se
+Filename: pool/focal/main/l/linux-headers-rock-4se/linux-headers-rock-4se_5.10.110-1-d7afc14_all.deb
+MD5sum: cbb31c512e28a10793a6d09571b6d4b7
+SHA1: b671fe424a66e4b9fe1fe72a7c65be9a6a727985
+SHA256: 7f9fc8a2c60568d2111898d3f8a79f362627410a835b239ed27ab3a79ce315c1
+SHA512: 4b6a43415e0f9046637a1eebfb53ac41f7b520eebafed523e5ba7fda85a348c6f1afc5bcca410308d63c8a540ae408d0609d153fc18cdb2d6f80ad31c58badc5
+Size: 1116
+
+Package: linux-headers-rock-4-core-io
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-4-core-io
+Filename: pool/focal/main/l/linux-headers-rock-4-core-io/linux-headers-rock-4-core-io_5.10.110-1-d7afc14_all.deb
+MD5sum: d00b12c54bb3fd118b4ea60965615c31
+SHA1: 6a7b734677ce143c27a1108a3cd68bb59d7ade45
+SHA256: 7805064a2dcf55b260e94698e7e6093a3bb58566bc5d6191f951eb3aad39bc89
+SHA512: d1155f6a1011b49db5f6bf5b461359c5abf1ad5d5d3bce110a8e567b7ee65f338692f4aa0362ad14e9fa037140dc86d0b2766782480d56298b999472d536aa7a
+Size: 1128
+
+Package: linux-headers-rock-5a
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-5a
+Filename: pool/focal/main/l/linux-headers-rock-5a/linux-headers-rock-5a_5.10.110-1-d7afc14_all.deb
+MD5sum: 05fec9e821875b131a3f9395cacff2f1
+SHA1: 951ded4c7cdc3cd4db62672907eafe97f620f150
+SHA256: a506d7e36caf334378e41d8017c4513dd30426d3f47394c946b1b0db70af5f3a
+SHA512: 8e803ba93f67c42874907ae8439191a4eef0229f49164618dcfb1727b7e9c505d76a2a7cfe73379f87280adba4240b125f35da3dc354e97a952c11f886431baa
+Size: 1116
+
+Package: linux-headers-rock-5b
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-5b
+Filename: pool/focal/main/l/linux-headers-rock-5b/linux-headers-rock-5b_5.10.110-1-d7afc14_all.deb
+MD5sum: 5f81db73ced3de74f07a20bd127869db
+SHA1: a2070ac6b2e4ab9db11cc68674ad7eb08f9bf9c3
+SHA256: fc85727b75c0d9c0132ea7e290a974aae2d994d72916bc258f7f9909c633556f
+SHA512: f24ab1d3cb43b7120d1b9f601359929b8368332405bdb7199d17b6c261916cfd4e05060407d800068a5bd9da816e3f54619708656aafd4d92411d5b6de9c18e8
+Size: 1116
+
+Package: linux-headers-rock-pi-4a-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4a-plus
+Filename: pool/focal/main/l/linux-headers-rock-pi-4a-plus/linux-headers-rock-pi-4a-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: 99dbb9aefe6c029bcd829338dcffa349
+SHA1: 1a6c26a916f054ca65abcef6c28d0281d5e53a5c
+SHA256: 7f3077f63d49c1e358eea408882ac802b667f5b23f3bf9501ed102adcf551d68
+SHA512: 96de243556febb16f34f032bf0572a3dda10dab0d3707d11c77a5ff272625614f28936757d9a6ff9267211ae29d56e5185759bf047078c7453d0fcf8c858ba7e
+Size: 1140
+
+Package: linux-headers-rock-pi-4a
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4a
+Filename: pool/focal/main/l/linux-headers-rock-pi-4a/linux-headers-rock-pi-4a_5.10.110-1-d7afc14_all.deb
+MD5sum: 35f5d0169d4fc50945a0f4e5aab42a23
+SHA1: 8ed436d9f0e70fb42ea270d5ba0a111dd4cbdbe5
+SHA256: 491e15b17e751110e6bc06a8eb8d2af6ef84111e467d37c25d8b908e8a83b55f
+SHA512: 1f6060f25699b1879b3c66bfd05b78a0aa3b418d7955a1b545c77460ad0b38140f186bb97a0704c7993a34c925e702922262dedcf6914fbbeafbae5b1517d1e5
+Size: 1116
+
+Package: linux-headers-rock-pi-4b-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-4b-latest
+Filename: pool/focal/main/l/linux-headers-rock-pi-4b-latest/linux-headers-rock-pi-4b-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 02b7fa1c3f1fb15d81d5ab93de3d4ae2
+SHA1: fde4969661825c9aee7765ad47b28d6ca2bdb503
+SHA256: 9d0def71f40bc2ce121d3a05e31b65ecc6e7fde0fc326af09f1b725a5b19ac8b
+SHA512: 71d1a4abd75bede46daccc38978ff1ca95c9ac1edf5e6e8b2971477704f937e98d49cd1ac75211b070b8e8af27d496fcff12c555bb7d5b285495ba557a91f335
+Size: 1128
+
+Package: linux-headers-rock-pi-4b-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4b-plus
+Filename: pool/focal/main/l/linux-headers-rock-pi-4b-plus/linux-headers-rock-pi-4b-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: cb8bdfe75539ca05796668b88adbbcd7
+SHA1: c6b6adaf2ed8a887e30af56893e2011f203a1c48
+SHA256: 66060fe90839e16288ed9efbd6e89e4e5a7bfc3cfefb09cc8169eaa3029e4a04
+SHA512: c9f07eacd9eb1ebee0ed14a938387588de62138543c51a3a12f8b96c5c77858b084b66831ba6ee29f65ff18603e08754bb6b67f24d9dab722fbed570432542d9
+Size: 1132
+
+Package: linux-headers-rock-pi-4b
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4b
+Filename: pool/focal/main/l/linux-headers-rock-pi-4b/linux-headers-rock-pi-4b_5.10.110-1-d7afc14_all.deb
+MD5sum: 7ba2b3aec61e5f2a996a858f752c53a9
+SHA1: 4120b374af92bccd2c25c662442573943cba716d
+SHA256: 98b57ee6e262c98f9a7fdb8137d1e132c1ae377f8f711c8ed8a9de344b3ccd37
+SHA512: d69da8fe3d0771973b6295f9f2a836a9d0fd686192720b4c44db74e35b763a7855c69357b58b01096d6b1e81de4a5931a02b55846b835f1926a0ed27085316e0
+Size: 1120
+
+Package: linux-headers-rock-pi-4c-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-4c-latest
+Filename: pool/focal/main/l/linux-headers-rock-pi-4c-latest/linux-headers-rock-pi-4c-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 3be282f292abf77997cb8fc8ddb06f0e
+SHA1: 7326b4fbc283507996c3c75111255615915a7e69
+SHA256: a3e4e75555bd8017c6863808bb5a02f61918c1fad1cf0f92eb3494d0990f314c
+SHA512: 01f5d4ff0e9d5670590c9a91c1b5bc4d81b9892f467052bd4b55801faccf438c0740c39a1d2890d8f353284566c2820bbc00ebf5a86a5a9e3738d8f4e5017c82
+Size: 1128
+
+Package: linux-headers-rock-pi-4c
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4c
+Filename: pool/focal/main/l/linux-headers-rock-pi-4c/linux-headers-rock-pi-4c_5.10.110-1-d7afc14_all.deb
+MD5sum: e46c6e50d927c396a3bf82770f5e6842
+SHA1: 800a48f492e3f65e660596950ecb975a0b17119b
+SHA256: 501cce2512ce9b72934ab2f7213ec7e0def39492404e1afe5be65bd40591dd58
+SHA512: 3a2ffe3fb935f12cb5b223733202ec9452f6ae7f15f5baed806ad9e383d80009ead4a8c7f8c93864c318f988a8ee03ad23520a8b9f56d079b479ba12d580b347
+Size: 1120
+
+Package: linux-headers-rock-pi-e3
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux header package for rock-pi-e3
+Filename: pool/focal/main/l/linux-headers-rock-pi-e3/linux-headers-rock-pi-e3_4.4.194-1-f60a0f3_all.deb
+MD5sum: 49029a1090a4abc248e493200c47b791
+SHA1: f465245bf68fb258381fafa4aa837db5a5476fdf
+SHA256: 47d73db0087d0f6eeff2e05d0ab164fb68fbd95cfe3f0e918147cf62a906306c
+SHA512: e0ce9b737135cead218f642ec0719950c90aae6f5fc21afc4d9fb0cfa8be7339a984ed7ed34c4008407c1d04231557d6a9a87cc3fe8e3769dd81f18cf33ae577
+Size: 1128
+
+Package: linux-headers-rock-pi-e-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-e-latest
+Filename: pool/focal/main/l/linux-headers-rock-pi-e-latest/linux-headers-rock-pi-e-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 6dad994aef24143b76d6311b4e75c1c7
+SHA1: 80527e6b6dc026d922c46d4c8a8bf519d787829d
+SHA256: ceabf11eb8e4292d89871bcc6adf88672eaf7abb3bc514fd7826d0e26ee82bbb
+SHA512: d33862db044afcb487ad6ec5a836e512e010c9d3a5892299db70d168a0cbea967dd6b43b9fbb6eef97d36201847174f64f6de2ec32d574e715df22c229d2f9f3
+Size: 1132
+
+Package: linux-headers-rock-pi-e
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux header package for rock-pi-e
+Filename: pool/focal/main/l/linux-headers-rock-pi-e/linux-headers-rock-pi-e_4.4.194-1-f60a0f3_all.deb
+MD5sum: 272d8d3504efa02cff68a526d33c95b4
+SHA1: dc95c9aba8bbfdca5247a9d8577d7c06abd814fa
+SHA256: 19bebda650d48adbb0889acac0e2ea57be0a27cb348192093f99a3422cd0a64c
+SHA512: 78d88512791c80655d9f9e737cf2507be4239ffffa770004f62ac2f59ed2a3e0fea93367dfa14d896c11a508ea1e0b12e4f60ced4e3f5a8949418e002968ac5e
+Size: 1120
+
+Package: linux-headers-rock-pi-n10-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-n10-latest
+Filename: pool/focal/main/l/linux-headers-rock-pi-n10-latest/linux-headers-rock-pi-n10-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: cc5f31d88b020981c55f9f591996cd98
+SHA1: 134b3fbf03ff6e52eb90be3e265496e793b6bb97
+SHA256: 80af06ea1417373e9bbe9376367866f54914435d4c26a0ba7b0d7104bf7ae10a
+SHA512: 1b117bb793a2084b6e48dcdd6434b2ea060c5540665cb33a6194f55ef8f691e39984ef9609fdf2452db185b930b7a9a3cac22b9d3b721009ad6ff6f364bf040d
+Size: 1132
+
+Package: linux-headers-rock-pi-n10
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux header package for rock-pi-n10
+Filename: pool/focal/main/l/linux-headers-rock-pi-n10/linux-headers-rock-pi-n10_4.4.167-1-f60a0f3_all.deb
+MD5sum: 36c5b7eaf5ab545b567785b46cf79489
+SHA1: 9a3b8c1813f2686ec9594d638605bbd641f46de9
+SHA256: 92b29d7c56a462a85fe62b164a9639bd7e26aa8b20035537fd92b4d5c7e9cbfa
+SHA512: f26e89da25cb8389144be2735db1acb599dc2f45c71344b18d0abd14630fc6e716572a8e30288ad521aefd9ae95ea477b87ac6d350afa3c3e2544f5a326b9ca3
+Size: 1128
+
+Package: linux-headers-rock-pi-s-v20
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux header package for rock-pi-s-v20
+Filename: pool/focal/main/l/linux-headers-rock-pi-s-v20/linux-headers-rock-pi-s-v20_4.4.143-1-f60a0f3_all.deb
+MD5sum: e0f3d31a2199d716aa6efc731b1d69ac
+SHA1: db033d52d7fe993408a1466762a9bd16c7dfe6b0
+SHA256: cc5a2b9886b4f95ee65fa4175b0e652f0e46c93210d30d259937975a5d5877f4
+SHA512: 30c1a4d708d74343b89f58f6b10c2351db6a9120847d51c80ee7689c10f66a53b7c1c63ed5368c7baba23a9d9b000544bb47a7238f9269ce1e800b78b9abce8e
+Size: 1132
+
+Package: linux-headers-rock-pi-s
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux header package for rock-pi-s
+Filename: pool/focal/main/l/linux-headers-rock-pi-s/linux-headers-rock-pi-s_4.4.143-1-f60a0f3_all.deb
+MD5sum: 0c60ab4be141509f137239e5c42930d9
+SHA1: 83d143ac2ed1adf07cf341d5d4f7e486d1027fa8
+SHA256: 64c316c7c56ea2421dd2ee019ab4f67a2e44a4feeb978ce5f389b7ae13b3a14b
+SHA512: 7d6eb34e9f03eca012732cc0e832bca1b2711b3d01eac7503d607cb092294df5f9c2ec33a63d5b6043b0c874fbbf3d9f4d96fa3d7391857eb3299de043b4832e
+Size: 1120
+
+Package: linux-headers-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux header package for stable
+Filename: pool/focal/main/l/linux-headers-stable/linux-headers-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: fbc2d89fcb6019bc6c4e8599b974b345
+SHA1: 98e19167e0733774c77283f6d752dc44ce8967d9
+SHA256: 8f3691161746c8c86b8fd858e816dc83c56ffdb154bf4f724eabb6615de0d449
+SHA512: a8c45262c7598d0fd5f25070058d9e6dbe351bd0bbf4f02f2f2c3c13742bf8ad4559f7327008740895047bfd4137fb2fdcc9a63b5e8775849482ea7ef1086c1f
+Size: 1108
+
+Package: linux-image-4.4.154-1-rk3399
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 84780
+Suggests: linux-firmware-image-4.4.154-1-rk3399
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-1-rk3399
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.4.154-1-rk3399
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-1-rk3399.
+Filename: pool/focal/main/l/linux-4.4.154-1-rk3399/linux-image-4.4.154-1-rk3399_4.4.154-1-86a614bc1_all.deb
+MD5sum: 41aa4a9714ac5f2c4ce020e6ac1ac68d
+SHA1: a1eff0871262a0afe065e9c1fa62a277cc355901
+SHA256: e4c7214da40be46bd186d50b8930353e3b8da0d517a752adc748a2b74c386698
+SHA512: 5692493f201b9b4ab17685aca6ffc734b1415a89ba26b73b3dc6f8e41df5515b24efa88e11c4364d5c6e02d5446771563a66da623792ce603afeaecd57642ac9
+Size: 15795212
+
+Package: linux-image-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for latest
+Filename: pool/focal/main/l/linux-image-latest/linux-image-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: d15a562b257d02b3fabfa5706715ea1e
+SHA1: 157212bcb286c20e5df9e290ebcd8c33a00fb775
+SHA256: ce53d7e3d70f20f395e77bfcdb5f17a240cfb1b0e56ee1bc71bb1a107d83caea
+SHA512: 5cefca22c98e8de44c895b58b64b153f4b92972ea1928fad72938945b09a2b00cb4d812361ac3c1a97cc8ca07e35e57e9584c6577e31fb34cadabe050bf66d2b
+Size: 1088
+
+Package: linux-image-radxa-cm3-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-cm3-io-latest
+Filename: pool/focal/main/l/linux-image-radxa-cm3-io-latest/linux-image-radxa-cm3-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: e915c8b0f7fb562c25a6702c6ecf713e
+SHA1: c2cba6491718e475e3b335bf5de690d6c6ba61aa
+SHA256: c5529c54899c50d00f153ab4a6868b1dbf2349978834ccb5b44a50a6f96c908b
+SHA512: 3063fb5715a6fcaddff3ac47845fdeba90aac6ded7ba153a176d475516d415d6cc953c2545fe8b5a8625695eb73c9cf56f181f8c24424cb642b7da20512a4725
+Size: 1124
+
+Package: linux-image-radxa-cm3-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-cm3-io
+Filename: pool/focal/main/l/linux-image-radxa-cm3-io/linux-image-radxa-cm3-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 2e573a67607c498dea008126086b604e
+SHA1: 43772fcf540f88a9bbfdb8eb9c7dde46c19dbed8
+SHA256: 6a8d0904fcdeb31c8625faf5454aeef48646a2751c3572c83d2c6a9ceb20891c
+SHA512: e0770f8be99d3fc02f7e74d0dfc714b6e0d1d87e12ccf62d2977303080d7351814b9047acd50425d6daefbe056958dbdbc233b5adfd747aa38452c358851a1a6
+Size: 1116
+
+Package: linux-image-radxa-cm3-rpi-cm4-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-cm3-rpi-cm4-io
+Filename: pool/focal/main/l/linux-image-radxa-cm3-rpi-cm4-io/linux-image-radxa-cm3-rpi-cm4-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 75ab5612e8ed982830965e068e9df0ed
+SHA1: ad90e6e81021e375f7e78c4f34dcf0aed595be11
+SHA256: e96cf5847deb5950a57357ae0629c17787f2e818dfc89f3fb25c133db36ad939
+SHA512: 51c415a5c7e46c4043e39b067bb225a8fb953066cd9fd6175eedae0a2a23b9c27d03fa4ceef442c3995e3a5e87de364443dcc863964d185f72c3e00fe3d768d9
+Size: 1132
+
+Package: linux-image-radxa-cm3-sodimm-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-cm3-sodimm-io-latest
+Filename: pool/focal/main/l/linux-image-radxa-cm3-sodimm-io-latest/linux-image-radxa-cm3-sodimm-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: e10226742b84e8a16e7ddf19c984852c
+SHA1: 230ecae0eeff802fa3caf26b9e65c8d469bde317
+SHA256: 87a86c6b630908e2b3c5e1c157e8eb6ca67f830822a3e2a60a2c3cd4cf785a7d
+SHA512: 9d9a19060f21ee8f0ece1e391d399ae52cca4aba915550566e79ee0f388b78265d0c0bad680869d838b0672782e40e5a387226ebd43054540f941993c4db97ba
+Size: 1140
+
+Package: linux-image-radxa-cm3-sodimm-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-cm3-sodimm-io
+Filename: pool/focal/main/l/linux-image-radxa-cm3-sodimm-io/linux-image-radxa-cm3-sodimm-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 53fac6b9fb2df7b9b048038d9bf7d9bc
+SHA1: 91f2785cfea8dde4e6b76e65b99482a54b67903c
+SHA256: cc6412c40654809e79ca56f3c10873994e135feacc58ba95b10370157e343954
+SHA512: 5af127603b68f0420e655b46f793d7050256e0d303786271d4e2e8781e57321d2f61d545f7c45c5bcb3e38930507f6d2cb3ee7ec18111f6eb142fbf7f5717fbb
+Size: 1132
+
+Package: linux-image-radxa-e23
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-e23
+Filename: pool/focal/main/l/linux-image-radxa-e23/linux-image-radxa-e23_4.19.193-2-bb9219a_all.deb
+MD5sum: 7ccc76f73dd33a675e56b31d24b6a17b
+SHA1: 07863c76a74e08f6d9c9094cb004d8fb922f0705
+SHA256: d89507496fed5408c0ea9852db9a040a678e02732dcac375d07719d217b62c47
+SHA512: af54d971fe3a8b7b694f74a847ce4d03a66d91c4aa661d898dc32255d560a542d68ed6af0e7b1e80dc9233a70a4244b4cd22b05ab0ff55717086577bb1f3fd87
+Size: 1108
+
+Package: linux-image-radxa-e25-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-e25-latest
+Filename: pool/focal/main/l/linux-image-radxa-e25-latest/linux-image-radxa-e25-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 7952ef58410e69f2e17a878bbe09d574
+SHA1: 66e0f9f062a638b7c25388509271267dac2b8e40
+SHA256: f230ac9b9b984c4d23ebe1ee5f73479568a6eec5df8ce3fd1e59fe0bd7b26b04
+SHA512: 664e2fa4f4c435e35611a7cc7d60927577a04eb8e529b2264af94058aaf69fd8115b706dd9df71c5d7bbbdbd367ff81a51f457a2f2b6ccc1d77022b4a5459440
+Size: 1116
+
+Package: linux-image-radxa-e25
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-e25
+Filename: pool/focal/main/l/linux-image-radxa-e25/linux-image-radxa-e25_4.19.193-2-bb9219a_all.deb
+MD5sum: 3927f450c8d53309a95601156e562f10
+SHA1: 840e3379dc1f877ac56dc3eebe6c3f4422cf7d86
+SHA256: 596aa9fd68b142ef8b06bb3d95c5d616473776e7f8fd41d1433f843a97e296c7
+SHA512: 1b7d7576b0d4f72b42676807ac79487a748246a074ec8f56777d5b4d2780ea2afab2e7cdbee82fdac2039b041de119df30ecc36aa8f4b8504ae9a6bd06dc30c1
+Size: 1108
+
+Package: linux-image-radxa-nx5-io
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for radxa-nx5-io
+Filename: pool/focal/main/l/linux-image-radxa-nx5-io/linux-image-radxa-nx5-io_5.10.110-1-d7afc14_all.deb
+MD5sum: 9b082f38fce20e8e49f9bc67f70f2673
+SHA1: dab21e8b0e580fb7ecf01ea60a67c64117e1e1ca
+SHA256: 69b428afdcb2f9e0ff8131221904419db9235f9350106e8f4909b659ba992126
+SHA512: 5b155674b573785f72becafd110e804bf2358c46e0721588a1263118d2b26722fac0bbe0fb417ac4165ac60a3e3d57ca1bc45dad2624f1c714fcc4a79ee45c15
+Size: 1116
+
+Package: linux-image-radxa-zero2-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux package for radxa-zero2-stable
+Filename: pool/focal/main/l/linux-image-radxa-zero2-stable/linux-image-radxa-zero2-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 353d443fb13c9947b3eaa142e78c7517
+SHA1: dc57db501021e085f6858d32d140db513cb3154e
+SHA256: 25bfc66f72adb1096b54c19ae9065d4004e1dc079caa6d8012fd546db07b5dee
+SHA512: 5e5d371a1d2c7409547657ffd269900071664a94983cd9428f4dc0c582476c89804beafc8f526dad5132ac2b874d269446b859f258d301466ff1316809cf4af2
+Size: 1124
+
+Package: linux-image-radxa-zero2
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-zero2
+Filename: pool/focal/main/l/linux-image-radxa-zero2/linux-image-radxa-zero2_6.1.12-1-bb9219a_all.deb
+MD5sum: 7f04740e2844d3ddca412a8948c0187f
+SHA1: f663bd81526ef51f3b2d3834b9aa4714eb460d09
+SHA256: 7b6c1074c5f4fda61a6c265f378901ca7d8e2ac37a5d25dc85762f9713d97eda
+SHA512: 0ab28c70617a8729e9870ddba20d2d790ec663f101e865f31f0f07f6b62e1bc0cfa2a4dca9703300a2cfe17fbda80d0ba9f11fe20b53cecb24ce3e85214460b1
+Size: 1108
+
+Package: linux-image-radxa-zero-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux package for radxa-zero-stable
+Filename: pool/focal/main/l/linux-image-radxa-zero-stable/linux-image-radxa-zero-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 439f575f0fb0ae713a3290bd8280c2f3
+SHA1: de559f618302f2e06a31f569af9b1613e49a7edf
+SHA256: 8c4fe59825875fdf0b890abfdbb99a6c568dfeec26762b2bbf8725a943287abd
+SHA512: 5abc37b0e1b8e2d957a6f6fb786105033b44a0e0a1f376df5836d20a6603cbf1b6f49ee1b67f7b3455218e6da0f2f6b161b75cdf2e6e54015f884952a89e13e5
+Size: 1116
+
+Package: linux-image-radxa-zero
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-zero
+Filename: pool/focal/main/l/linux-image-radxa-zero/linux-image-radxa-zero_6.1.12-1-bb9219a_all.deb
+MD5sum: c9ef6ff15b01c387ea097ff22959704e
+SHA1: 33d87cd33455b99d6daf57a23a565e1ce9cc91a7
+SHA256: f41d49bdbbe9271d213fb5c388d48be63e9c1c9688f77e847a39578533052065
+SHA512: 22b6ff0ea9906af39ba3f7833ce8359614b7ae273a30127e242fca4f305ac729eca24b1acdb3de76edb6e441205b35a16b96b5c5052dea2d757f46e61a98c4d8
+Size: 1104
+
+Package: linux-image-rk356x
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rk356x
+Filename: pool/focal/main/l/linux-image-rk356x/linux-image-rk356x_4.19.193-2-bb9219a_all.deb
+MD5sum: 4aab08d2f8f114ce16983c8bfc009822
+SHA1: eca7362ca4e73023dc662ab32294e63e5ac052a3
+SHA256: 9bc2cc829e3e3aa3a653457b33666d701f74da91974458e2befad2a6b1c23c45
+SHA512: 35c23fa4f37d9a3237053a1c62abe1dfa60a850a9a4ec5bb2450e17893ade4d9971567bdd0c8bb2206f745e383999288dbff0db3bca0227420d5a8689494d3d6
+Size: 1096
+
+Package: linux-image-rk3308
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux package for rk3308
+Filename: pool/focal/main/l/linux-image-rk3308/linux-image-rk3308_4.4.143-1-f60a0f3_all.deb
+MD5sum: f4f021789003e4fb9abfa14aad7f6106
+SHA1: 1f25697a3a4b708af468c83afd8159af0a2403a5
+SHA256: e16e164185ee8d08f199493a1785ce16a248b5495a4a61d28c4c43eff8d3a1af
+SHA512: 93700a43a2ad94dc573d41e7738f4ccec46495345eb23afe1446c3dfa12b6732395d4deb10d85b1380de89b4a26bac995b26c2625a8979f92919ec35d96933d2
+Size: 1092
+
+Package: linux-image-rk3328
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux package for rk3328
+Filename: pool/focal/main/l/linux-image-rk3328/linux-image-rk3328_4.4.194-1-f60a0f3_all.deb
+MD5sum: 98aee67961ed4c31a5acf9257a3166da
+SHA1: 11767b486df0a18055da0615e39611bc45abe65d
+SHA256: f477fcd7561a06c5ccebb4f54f737d240176fa100f9706bb8aa914953e0ec4ca
+SHA512: 2abd7f550a0cfe87a961873ce963630ebfbfcc17dff3d6098fde3c07c7898ecb6bcfd7580a102535c948dd18661b6a4a7a01efd9a7296f1098d5d4146d40f36e
+Size: 1092
+
+Package: linux-image-rk3399pro
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux package for rk3399pro
+Filename: pool/focal/main/l/linux-image-rk3399pro/linux-image-rk3399pro_4.4.167-1-f60a0f3_all.deb
+MD5sum: de8467065aa7e39ad25ca2e47fd7c91e
+SHA1: c2206dece587e28213d7f58ddff0743289c1f115
+SHA256: 988324e3726e285edd7d89132a6b486809cc07aebb5fc2c7e28ca07c4de44560
+SHA512: 621c3d02de117607709b4e9853afbe392b9e99063e701b3b8114fd0641a296d549a241a8fc1d173af4aaed2df6ac218636eced4f357e679a735946a1c0048e0d
+Size: 1100
+
+Package: linux-image-rk3399t
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3399t
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399t
+Description: Radxa virtual Linux package for rk3399t
+Filename: pool/focal/main/l/linux-image-rk3399t/linux-image-rk3399t_4.4.194-1-f60a0f3_all.deb
+MD5sum: 68e6f8a6dfdfcf388796e593fee985d8
+SHA1: 215c488ee6b21a471c47287af94c917f4cbbdc06
+SHA256: 9b768be473787cfc3f2ed646b7eedebbdf32b3ff4bf43dc7f6d6640e3ac593d3
+SHA512: 764390f786e02d05af62e52efbd46fad41c1ffb9d11f4f3b24bbbeaee3da0fa0895ce1d56d2572917cbf0c08a667ad945890c280c79eb41c47209384f470b352
+Size: 1100
+
+Package: linux-image-rk3399
+Version: 4.4.154-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-1-rk3399
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399
+Description: Radxa virtual Linux package for rk3399
+Filename: pool/focal/main/l/linux-image-rk3399/linux-image-rk3399_4.4.154-1-f60a0f3_all.deb
+MD5sum: 4bd67ee45bf5450cc644b4d290de6370
+SHA1: d537aa8d0838179e212456674a635558d9caea11
+SHA256: cf9e90f837edd8049bc69de30e9ee8255340a1bcb79ad37a78e2288f3823c12e
+SHA512: 52275f95d7c6a651f55d9e8b4bb31a6cd59a83cd1b1380ad8b4b0859d408d49c6015500c659b3c12f362a86fab41b36d409041ca6b6d4058dfc2bdcaa65498c2
+Size: 1096
+
+Package: linux-image-rk3588
+Version: 5.10.66-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.66-1-rk3588
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3588
+Description: Radxa virtual Linux package for rk3588
+Filename: pool/focal/main/l/linux-image-rk3588/linux-image-rk3588_5.10.66-1-f60a0f3_all.deb
+MD5sum: 426c2f3a450a0bdec361d79387a1c40b
+SHA1: dd7ca1f2277c1e1c403aaa4268f47b75d8b7134f
+SHA256: 50754c660d086a324863d0df56d4b13f665b02b5e1c4b887fc93b19396f686da
+SHA512: 8aa50fcae00f253ecf83066e0d9c6393c0887300ab1ede81d83c5daead2e0083c6921dbac1299bb5303de76628294124b63b0444fa57e6339b215747359fb28a
+Size: 1096
+
+Package: linux-image-rockchip
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rockchip
+Filename: pool/focal/main/l/linux-image-rockchip/linux-image-rockchip_5.10.110-1-d7afc14_all.deb
+MD5sum: 87b95505d54e8accaa1d6026b4fe3d84
+SHA1: 218e7464e45b05a400243152fd0bf59ab76fa6eb
+SHA256: 04ce1b646ef4faf3159ce5fb221d83ab8693c59be439ca6ebded8d484395d4a8
+SHA512: 40710ee45e9906f525ae4906c7ce79bdae183ab77ab274009218641255896e852bfb334dcaae1532f7309122d2c808475d155529aea15b1e177814d29aa99a80
+Size: 1100
+
+Package: linux-image-rock-3a-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-3a-latest
+Filename: pool/focal/main/l/linux-image-rock-3a-latest/linux-image-rock-3a-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 8491618ecb36fb2303a2df5e01bf148e
+SHA1: d5aa93ff0570dcd9e286bedede5d6640314b5140
+SHA256: 8b11bebf87fbe8d5dd55a55a915e7d22cb989f0529c5dfc35516c2179be27eaa
+SHA512: 615a0eaf63f13138caf0c29a18a3702578aa5abb80e5701fc95bed98dfc4f62141796c83f08adc84e74ae512d9ecf9ce2281a77dcdca9597af9998e4e47e6580
+Size: 1116
+
+Package: linux-image-rock-3a
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rock-3a
+Filename: pool/focal/main/l/linux-image-rock-3a/linux-image-rock-3a_4.19.193-2-bb9219a_all.deb
+MD5sum: 3d98d73a3f6b2bc01b5eed8a555d667f
+SHA1: 286ce79c62d95dc57642197ec5d25862c1856b0c
+SHA256: 28a3c8ee35eb7c521188b36521d4003d644fcbf833c5d663d9ee3264976ad378
+SHA512: 5778479423be764d316df3ab10ceb392775d63d793e49cd63bcf5c9fa4336f2ba0d7679489813e4810c44d66ff4fc28f0e57093724b16f63d9be6b90ab57908e
+Size: 1104
+
+Package: linux-image-rock-3b
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rock-3b
+Filename: pool/focal/main/l/linux-image-rock-3b/linux-image-rock-3b_4.19.193-2-bb9219a_all.deb
+MD5sum: 8d2f3bbbefbef75b92deecfe4690c4a9
+SHA1: 8958d54a548e70ac5f39a6747f12203cd218e334
+SHA256: 8fd32e8523bd1fafc47d3ad3e28b098dbee61335f849662ca77e6c8a071c6918
+SHA512: 9d317fae91db063f5314407595be249f08999bfe411e4060cc923462480c5b3bb97c69bfb885a3387abc80e918558c32cca7ed47b55122602d065d3c9f34acfa
+Size: 1108
+
+Package: linux-image-rock-3c
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-2-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rock-3c
+Filename: pool/focal/main/l/linux-image-rock-3c/linux-image-rock-3c_4.19.193-2-bb9219a_all.deb
+MD5sum: 15066706da732dfee2fecb0cfae65bfc
+SHA1: 928a1d1631adf6d4a900eb409b786eff0cdc1eb2
+SHA256: a7edf2ab554fdace0e3dac9403e0adc119b10d1915ddab0d620e6e6036fa4649
+SHA512: a8a13ec39166e87bb3829b3a5a2f5af7e4c552207547fc7d3c7272e7ec3fa9f17bf2ef0f78324ce462aa937af0c8a85d769aa504db4967b2bd904889fd37d2f0
+Size: 1108
+
+Package: linux-image-rock-4c-plus-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-4c-plus-latest
+Filename: pool/focal/main/l/linux-image-rock-4c-plus-latest/linux-image-rock-4c-plus-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 780b4d4857d8007465db63bfc91a34df
+SHA1: 82d08a0173c777a21c3dee1b2b3fdf66eb3abb1a
+SHA256: dc33299354e8fee266a5ca3e84a13a4e9726796f5569d9e0699fb5c5da59750a
+SHA512: 2f7db520370a69eed02d4ac749c189e2b6ff96f1859dbe240788781568926f0a86c2b5db8aab481dd54b0f0b04d9a34eb7764c2879b7a74f2ea6e7a74aa22110
+Size: 1124
+
+Package: linux-image-rock-4c-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-4c-plus
+Filename: pool/focal/main/l/linux-image-rock-4c-plus/linux-image-rock-4c-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: 5ac5a6114a74a070ef1fc38073dc76db
+SHA1: 7e52c89129d62c735334b0d96e0636c5d6be3b35
+SHA256: 1a9a94db65ac2fa818f0b1e98e3f4e500aea4b752521a217fbab25146e6739c8
+SHA512: ad2548ed48574648bc14f9ce2933d43ce7e30df5a2926e99eb7e7cfa5af0016b29063a33fcede906863005b158da61d7a2efe64cf845477a2b559d4e6d9c69e0
+Size: 1112
+
+Package: linux-image-rock-4se
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-4se
+Filename: pool/focal/main/l/linux-image-rock-4se/linux-image-rock-4se_5.10.110-1-d7afc14_all.deb
+MD5sum: 9016c6d3e772b449908a5f0d0d34c098
+SHA1: 0868e5baeaaf33bdb4a48c248f99e2f976640677
+SHA256: 493d74063f03cafb32e555b595f7c7ae872480a1eed1c791973e573deaa2a698
+SHA512: 96813b142f6551708f8435600f51012bd4ed94845d13d1f30132d431953433d168e22a57a6812c772664d6ae6a83022d1d0c491bcbb2cebf5caf20b48ca8a4eb
+Size: 1108
+
+Package: linux-image-rock-4-core-io
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-4-core-io
+Filename: pool/focal/main/l/linux-image-rock-4-core-io/linux-image-rock-4-core-io_5.10.110-1-d7afc14_all.deb
+MD5sum: 9e3aca0e69270c033342418f194f92b2
+SHA1: ed401891d0c271b2dde61e33d55c5dd02c44b7d2
+SHA256: b6e26fca431e8841489d28aa2bcddd55fafb9c32eb94949de5bc191f9f1ab3c4
+SHA512: 5ab2c607fbe5f40724e9e53066199f18d413cab7df184d16f363e0cbcb11047c74e88acee2abb537df1440b06817447bafd876938cbf325687e491041943d82e
+Size: 1120
+
+Package: linux-image-rock-5a
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-5a
+Filename: pool/focal/main/l/linux-image-rock-5a/linux-image-rock-5a_5.10.110-1-d7afc14_all.deb
+MD5sum: b9891d98947e89745a1a27f19f9de51d
+SHA1: 94cbae826f7c29cf8b092c68f531da586480270e
+SHA256: 7d692dea93b25b409652391cefb41fd5d8c6fb86d37ae7b97bfd3254821ee6a5
+SHA512: fdb2ed788b90acc6bbc8a78a5cbb99bca10b332bcf21b30a93427e4bbc233a3006fc8aa69102c90f9137e49d317c46e24a216f7e592c1762cad23e64bd11d5c4
+Size: 1108
+
+Package: linux-image-rock-5b
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-5b
+Filename: pool/focal/main/l/linux-image-rock-5b/linux-image-rock-5b_5.10.110-1-d7afc14_all.deb
+MD5sum: eeedf6c7ecd09f97bb9140090f9365ac
+SHA1: 8135f57ece4e80773963e58d2fcf4e3213c6a350
+SHA256: 5848a48deb4d68d618f13874d32fce1be9e0756fa178d34c7f612589d618d4b7
+SHA512: 540b1dd88c63d51bb7479dc976c202cd1d593cf24e1d5310b0a49ec5057247bc49e4cc5cee4f13980f83aa82ac02d47a96813b45ad21ac76a83a9b1abe53bff3
+Size: 1108
+
+Package: linux-image-rock-pi-4a-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4a-plus
+Filename: pool/focal/main/l/linux-image-rock-pi-4a-plus/linux-image-rock-pi-4a-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: 51cb23b0b6ad29bd18c2a8ce0b7ecdb1
+SHA1: 6bf7343b8adaf975c4b877d01113966389a4d86a
+SHA256: beecae8bc31aa0dc3b0e35d34bd1ea4ec4eaf9255ac62a99270a1d795e1bf685
+SHA512: fd40357c25e08294fa4a74a036396cf1e32cfbb90b0a194dde2bc5217b7db9dd81d80ebd6c3639fad3c9d451213d233481c7f0b718fff77eee367ed721b98e1a
+Size: 1128
+
+Package: linux-image-rock-pi-4a
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4a
+Filename: pool/focal/main/l/linux-image-rock-pi-4a/linux-image-rock-pi-4a_5.10.110-1-d7afc14_all.deb
+MD5sum: 62423d28693ff36e290c913f514b3c5c
+SHA1: 8120b4cb36847527ad6c4aa5358f670e5a245646
+SHA256: 21ea75ce7ef95ed803a9849f378abbb04398ee9980e7bcad57bff5d6d6073544
+SHA512: a163619467532f0146475c40ff848469ccf3820b99845cc39508e2f3c55783cd2f4a2c7979b5c5bbc9d54bf0455b459a15f3008a18e62a552cbf12e15d8a0d06
+Size: 1112
+
+Package: linux-image-rock-pi-4b-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-4b-latest
+Filename: pool/focal/main/l/linux-image-rock-pi-4b-latest/linux-image-rock-pi-4b-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 89c0418d742500f37e8f20208cd80406
+SHA1: 5eb42eb046bdd75ff77aa33d85e4ed0a6ece4469
+SHA256: 09fbbbd71e92e27068816352a1460c9f890dc07ce2610350a1ca877f444c2bdf
+SHA512: 65f3f2fa2d64719a59d012a425fa15bc1a9879c1c0f0a83fb42b905f63a4c02a7c20d5c567cb8026beb11df390d409db7fb3135505f6ce1ea0d12f52d1a66992
+Size: 1124
+
+Package: linux-image-rock-pi-4b-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4b-plus
+Filename: pool/focal/main/l/linux-image-rock-pi-4b-plus/linux-image-rock-pi-4b-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: 8229ccc1f51eea57762ca9b652bd723d
+SHA1: d195c4bee4b1f73ea7a18bec9d072e38b773e8f8
+SHA256: 93ce43f1230446400beab7266234af445b614c785d47ea9b7f8a7243d8e28aa2
+SHA512: 2c7ae60a895072454ced2e27eb0be4b9df0f9e0f902094d80d355eae03272802c6104f50116673ef5e2be1e953099d2cb7356e53a9f37a3bb18328b3e15df908
+Size: 1120
+
+Package: linux-image-rock-pi-4b
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4b
+Filename: pool/focal/main/l/linux-image-rock-pi-4b/linux-image-rock-pi-4b_5.10.110-1-d7afc14_all.deb
+MD5sum: 25573a3e63eb8515cb55ed4f18c4df2b
+SHA1: 19ebc9c2b49285f2f7df1f6521ab00d70e74f086
+SHA256: 66627df64bf10c614c1755baa823ed399931201696bf4a9b7a665ece1d40867c
+SHA512: 54831f6e2331f8b35742e5c4f663ad2f8f73d08ce5467db722193ed5219c6858b9545d4bc484d9e2e5c967260f3b7077047af40088ef1e7fb6fb767ef13a5d5d
+Size: 1108
+
+Package: linux-image-rock-pi-4c-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-4c-latest
+Filename: pool/focal/main/l/linux-image-rock-pi-4c-latest/linux-image-rock-pi-4c-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 65bcade2b42e0b2cdd822778d70dbd55
+SHA1: d281d12c591c7eceeb2f2d25134a6599a5e2c9fd
+SHA256: 5c38691dd6c8bd73d5a37c1389a9aa68b9aaad3df456d2d0698e904ec2c4b877
+SHA512: 0ea5585d9113ecb105009107ee127ec1c4c65e116bb85375547e16bd61195f11a10a053a181d957bfd34a3716c3385b1c11d040ed625f148fb1c9ca263a969f7
+Size: 1120
+
+Package: linux-image-rock-pi-4c
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4c
+Filename: pool/focal/main/l/linux-image-rock-pi-4c/linux-image-rock-pi-4c_5.10.110-1-d7afc14_all.deb
+MD5sum: 45775bf2d36bbcbe2a34cf84b983ea5d
+SHA1: 5662462a21890f1e7ebd21ffdb84de46a8a3e4d4
+SHA256: ec2fbc80c68ff039cdce0a50a32dba3898d4a181ca2ba24dd3fb2dc4836c7523
+SHA512: 7b08a5b966613b6cb01eee2d306411951389c01a40a1fc46abe844137bcc2de517d4811336eeea053fb04fc1a802a4c55f75294907d76e971afd443609661449
+Size: 1112
+
+Package: linux-image-rock-pi-e3
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux package for rock-pi-e3
+Filename: pool/focal/main/l/linux-image-rock-pi-e3/linux-image-rock-pi-e3_4.4.194-1-f60a0f3_all.deb
+MD5sum: aad6f4efd927865d3c07fa0a2f53c88c
+SHA1: 1bfae4af8763944c10867d1659064c46502387a1
+SHA256: 6be126fe265c9da776751db2344328f40208c44e57ce434e6519705eeb583da8
+SHA512: 38b241b6cfdcefada286181959d3832492db2422793df5b3dcd40ca9efdedd8807ba01fc3dac470b59cf37823fb786adc40f75eeab1fb8d81d10101bfc387a84
+Size: 1116
+
+Package: linux-image-rock-pi-e-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-e-latest
+Filename: pool/focal/main/l/linux-image-rock-pi-e-latest/linux-image-rock-pi-e-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 323fb7b1dc4799bc3da8aa4bc3b52867
+SHA1: ea626b16f14c28fd941b4a35a4f05457b0d02162
+SHA256: 24e2f368238ae5b638be8ca4f89fa83a6fda65436c6de22d46c38a6f938ea212
+SHA512: 404517ca6f589f96769b2ef080998104641594acf5250276c0b033c6a4c8f9bf7b57692d9777af0fac376420376857830b09a4e00b18332c56af8c425615ad51
+Size: 1124
+
+Package: linux-image-rock-pi-e
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux package for rock-pi-e
+Filename: pool/focal/main/l/linux-image-rock-pi-e/linux-image-rock-pi-e_4.4.194-1-f60a0f3_all.deb
+MD5sum: a08485c1550e22f4676bbbf5f666e3b1
+SHA1: 37f1be32330ec8be88c8bc1039c7c546a279d2f1
+SHA256: 632c0f61981a3f240bb36333e918f30aab1de2f2da60c4d473d50a85a30d37d0
+SHA512: 20f5620fd57ac75c1b414a302807068fa36876fce48e81716945a8c50f5f01c8b1f3482461cf785757dd6a98465ac586da5ee8baa3a2e54c5955488691019850
+Size: 1116
+
+Package: linux-image-rock-pi-n10-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-n10-latest
+Filename: pool/focal/main/l/linux-image-rock-pi-n10-latest/linux-image-rock-pi-n10-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: e7796f2bf65e1e127a4c4fa093d1a80e
+SHA1: 6c623d54bb96d7e37151715671d36368ebd6162c
+SHA256: a8a4925e3a24c419e9919f54e9252100bb25cb0b6a12cad9fb11d052997ecac0
+SHA512: 50abfd3bf21b1b70c02362b3f9600d78aa1d91c6c85c26cbf26a8fe32d80c6eb22641f06e09f0008eaddb5b68e238d67659d949fe6abfd34eba7da835fcc2082
+Size: 1128
+
+Package: linux-image-rock-pi-n10
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux package for rock-pi-n10
+Filename: pool/focal/main/l/linux-image-rock-pi-n10/linux-image-rock-pi-n10_4.4.167-1-f60a0f3_all.deb
+MD5sum: 515639bea5109d5390468d0a57299038
+SHA1: 3450c3c2c07d09176b1e54f42e25ce437af5afcc
+SHA256: f14a109edd671030abfbf732dab850e4c83fa3358ae30ebe58bedee09f885552
+SHA512: c029e01a89ed41549b4f0e41499d7f80d573a0dce37228dbbba702074d17d97637915437ebc22257202b640dc9d12a98a225c0b3c1934fe8b32f5a4ea0cd95af
+Size: 1120
+
+Package: linux-image-rock-pi-s-v20
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux package for rock-pi-s-v20
+Filename: pool/focal/main/l/linux-image-rock-pi-s-v20/linux-image-rock-pi-s-v20_4.4.143-1-f60a0f3_all.deb
+MD5sum: 29eabf4f996a6886563b6026b511f8b8
+SHA1: 7f343e70a2f99c6cba13db9531e669a6a3bbbdc2
+SHA256: 182be695d942e43a5d9234af9ee59b1f3bddebd87255c23c59bf909aa2dbf766
+SHA512: e1780ff6b1cf9a47847e9dafb6409fbab8b0d4337fbf7c5b749598aab90586a1402f23754fb960d523d7019fcd9f74c8f43fa12311b819b8db752aa89f0f9d0a
+Size: 1120
+
+Package: linux-image-rock-pi-s
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux package for rock-pi-s
+Filename: pool/focal/main/l/linux-image-rock-pi-s/linux-image-rock-pi-s_4.4.143-1-f60a0f3_all.deb
+MD5sum: 7a5f62f187a526d29e5b280160ee629c
+SHA1: 8179d85cacfa48c7865ce2e796502da2cfcfdd77
+SHA256: 52ffd385543ffb5ae8883b00def65d6fb7ddae141e2eb6911ce37797f6dc0686
+SHA512: f2e1c836662f4a51e58d4de18953fe90867babe949d96b73f4e085e9487bbeb7667c4534107a93bb0831edff0fc0f133407edc2d78acd457c8502176bcd99976
+Size: 1116
+
+Package: linux-image-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux package for stable
+Filename: pool/focal/main/l/linux-image-stable/linux-image-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: f312c56ac496048e9ec703b407657e33
+SHA1: 40f251dc8f5d685d8237087ae7f0e72cbd36a58b
+SHA256: 7b723475ef52da5fcf12522c34032ebeaebd917ff129d68a68a3cabca413b6b4
+SHA512: d742ec325ee85ed590713b2c968922ac5399bf75f00c232e6ac28c884711abdc814efa73c47adf07fa511f42a8940c7ac156fbddd1b070775bf311a1da343005
+Size: 1092
+
+Package: linux-libc-dev-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for latest
+Filename: pool/focal/main/l/linux-libc-dev-latest/linux-libc-dev-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: d495a3d9055250852eb3f75e8de53b3e
+SHA1: 2b5d181dac489e0da2fb313b5387fc1af2e52093
+SHA256: 6231e7472c1a9d8bd3d0e9908cbbe1e572f228011d91ced9e548008f270c81e9
+SHA512: 1c484cbe65be22c52ca766b54e54e7b9eb49d0b019cb7e9488d419f25cab911d922ce198c7a05ed039672f347808ffeba2eea3185a69e784f8bb700ebdc21a31
+Size: 1124
+
+Package: linux-libc-dev-radxa-cm3-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-cm3-io-latest
+Filename: pool/focal/main/l/linux-libc-dev-radxa-cm3-io-latest/linux-libc-dev-radxa-cm3-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: a106b25e876522c65d40d84ec56bba49
+SHA1: 761ca7099121394e229d40b7f948c5b7e905163c
+SHA256: eee1dfca85afe839ad98ae63e435ba82e8b51901e51e1634fdc3a55e50d53afc
+SHA512: c1de005d38c4175aabf03fd33811bcb7b940beccc0cea16b3145058bb0595eb5e15823c745e3ab6d9a544f91dd26555f80247a35d0c4f1cedb9095cbded9e588
+Size: 1148
+
+Package: linux-libc-dev-radxa-cm3-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-cm3-io
+Filename: pool/focal/main/l/linux-libc-dev-radxa-cm3-io/linux-libc-dev-radxa-cm3-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 760e9d194787b9a09fcf588cf2dec5f9
+SHA1: 91cd42c28c1340c581ba5f1b9d5fcc042069ce52
+SHA256: 3d395d50b46826ed13ce54e9fd4ca84733e7bcba1c2faf8e043b5e8a3ba53db8
+SHA512: 73c66e9616dc000d1f14c9068138ca22a85a94263298a1a74ec4e197c5c17de6d7c80b1eced053f6bf74622b455fb04b4abfbe58d7b1801483a0009e29397c8a
+Size: 1140
+
+Package: linux-libc-dev-radxa-cm3-rpi-cm4-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-cm3-rpi-cm4-io
+Filename: pool/focal/main/l/linux-libc-dev-radxa-cm3-rpi-cm4-io/linux-libc-dev-radxa-cm3-rpi-cm4-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 0cd5c2eea8c7560669c5d13a7c08d5db
+SHA1: bfec8d61a3b8c4325589d358ca7a71a7a73bd6f3
+SHA256: 7b69ef9a0a5efd2601c249815a515081800b901738e111542222d888354c12b1
+SHA512: f6db8111a3950ecf6116d21689a4a76da3f7388c17ac2d3f92aec7a3d0da7b0db28d58be2a45a7be4f813144ff0a0721750d7c59f9bee1f051b09cb373d4d403
+Size: 1160
+
+Package: linux-libc-dev-radxa-cm3-sodimm-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-cm3-sodimm-io-latest
+Filename: pool/focal/main/l/linux-libc-dev-radxa-cm3-sodimm-io-latest/linux-libc-dev-radxa-cm3-sodimm-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 85fbf330c04da67d8b004407b4a97e12
+SHA1: 656276dda7936ac19f2f80805245a6ec61beeed7
+SHA256: be830ae3288b3267c2457a0e6371bacd865cd010efd9464c8f58a826589c2b30
+SHA512: 76035d2c8a1890066f850bb867cfb2e0e43948483b4eff4a98167ca6fb316ae470cb1aabfa5120c0f336dc0e098a56a73b079b43eac2e08b36ac2fa7d7807306
+Size: 1168
+
+Package: linux-libc-dev-radxa-cm3-sodimm-io
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-cm3-sodimm-io
+Filename: pool/focal/main/l/linux-libc-dev-radxa-cm3-sodimm-io/linux-libc-dev-radxa-cm3-sodimm-io_4.19.193-2-bb9219a_all.deb
+MD5sum: 72073c7f378cb634e6f3f09f086166cd
+SHA1: b93072e774bc051fa163b44c4e72face1d424ba6
+SHA256: 2d326636c54d0bbb8a1870028d8322673612925c9b20bd2b812455c8dc3fa615
+SHA512: 0a7c2aa1fa0ed4a3b54f154991bb4bdd050706155236a2be0fff5193ae60847a6b384adabcc50d765e4788121a79fc6c53a4eca1f226daf93729c8fb34822d30
+Size: 1156
+
+Package: linux-libc-dev-radxa-e23
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-e23
+Filename: pool/focal/main/l/linux-libc-dev-radxa-e23/linux-libc-dev-radxa-e23_4.19.193-2-bb9219a_all.deb
+MD5sum: 9587be45a134cb3ba89988a28f8b463d
+SHA1: 350da5e9bf7d45709b211d573a9ff6f6cde08362
+SHA256: b9e0d2775ef5c29b78f4c284f1b336372f3d87c9475de5d7b9e900ee55624aef
+SHA512: 90086e5d8e0aa15a19794fc728c1c318449451ae4af569e5bfb4a22ba8c1bbffe2927599e473ec75399b386ac5f91566539508fb13ac28d99456e05f4ac98954
+Size: 1132
+
+Package: linux-libc-dev-radxa-e25-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-e25-latest
+Filename: pool/focal/main/l/linux-libc-dev-radxa-e25-latest/linux-libc-dev-radxa-e25-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 170c2102085be9d67046f9121089a66f
+SHA1: 0b1488ff1af40473637309f26c0a19fec60fd7a7
+SHA256: 4ce4ba9ea00ffcfe1d4cc1a96b20a75d0cef7d1062ee64983bb1d9ac37ce8cfe
+SHA512: 76dd3d82dd5e0561dd09833b7dad81412297b2fa28ab7c5dfc74f685c722535399e3510eb85e731d4bcdff2f8a3fc129f6ab0cdec8864f2221fb807a7a11fddd
+Size: 1144
+
+Package: linux-libc-dev-radxa-e25
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-e25
+Filename: pool/focal/main/l/linux-libc-dev-radxa-e25/linux-libc-dev-radxa-e25_4.19.193-2-bb9219a_all.deb
+MD5sum: f65dab75a2a95a1a6e7a530c939ca097
+SHA1: 70f2755b718c167f2dce130d8d97d977172daf35
+SHA256: d7716aa92cea0d424a022b7b7a6f48b75f9a9d31cdbb55cce2a3d966d6c96e54
+SHA512: 3703deb0ea44340ea5eae9e6aa94870237df4d04de5936aef90a254bd1d9dff62e54d0f22e0bb7714bcc6ace69134c3ec1b912072826cab5c8bc865705572c6d
+Size: 1132
+
+Package: linux-libc-dev-radxa-nx5-io
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for radxa-nx5-io
+Filename: pool/focal/main/l/linux-libc-dev-radxa-nx5-io/linux-libc-dev-radxa-nx5-io_5.10.110-1-d7afc14_all.deb
+MD5sum: b34bcbbe8362208b91678cea0e7e101a
+SHA1: 73f6f1602b9e03c4c57b0f4ef8a7bea3dc7cca4b
+SHA256: 55b65f89dd59a2024a2b3d331d08dbc32bfc266b51f03e91b0acecc559263eba
+SHA512: 2d97a306601eed5ad3034fe55730a5f3cb01b23c6440593b412d62d388a8274ce55fe03eb49f996b51465630a9430eff25bb6c1f605d0b2ff46ee7dab037205a
+Size: 1140
+
+Package: linux-libc-dev-radxa-zero2-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.167-1-stable
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual userspace header package for radxa-zero2-stable
+Filename: pool/focal/main/l/linux-libc-dev-radxa-zero2-stable/linux-libc-dev-radxa-zero2-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 5f9cc23771daed1947896198b6a1c048
+SHA1: 7c018448797fc4c7b451b96ce70dda162e15e595
+SHA256: 3fd3b34680616ec081e8959c683b93a96f25470ebab28a250722d22cd8ebf05e
+SHA512: a5fde048b84ce2e0037cfa3f3c022904e0fa9f8afb2234ade3b2decac6fe56d5ef407f7268dc783a1d1fb3e26e02ae40c215ef2af21591f3b4c680cff2045a22
+Size: 1148
+
+Package: linux-libc-dev-radxa-zero2
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-zero2
+Filename: pool/focal/main/l/linux-libc-dev-radxa-zero2/linux-libc-dev-radxa-zero2_6.1.12-1-bb9219a_all.deb
+MD5sum: 59e91415949038e5785323d25d06a127
+SHA1: 9c1688270ae1b04a57b551924b3a395c44f9cc17
+SHA256: 2694c401576f28c7f5bf68bb40c0f1e763e6a17617c898c5dcb362735266e359
+SHA512: bcd8f588acc0348ccef1651d41f7e5f3094ed3cdc18833e97c925446d820d2cea6142ca5a2739545bb87d9393d03dbcddc653b34f6e9bd3616e4d3ade2204e6d
+Size: 1132
+
+Package: linux-libc-dev-radxa-zero-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.167-1-stable
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual userspace header package for radxa-zero-stable
+Filename: pool/focal/main/l/linux-libc-dev-radxa-zero-stable/linux-libc-dev-radxa-zero-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: a8d6b455c4c7c78aa6cdeeca186580cf
+SHA1: b44a1d0879e461c76d4e6faa6a6ea4ee03c2b803
+SHA256: c54b7c999103b26e5e4ee8fa2c89df0b81d3b37a24ddcd83cc0c5e53a6b8dbbd
+SHA512: 9fbe3d4589ccaf1f97481b3d5e36daa1be8765fb044cf95d4002df810268c49e7f24ba1ba018f9193adffcd025bfe4cce554787ecb9e4cfae708d4ff1a4d58c3
+Size: 1144
+
+Package: linux-libc-dev-radxa-zero
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-zero
+Filename: pool/focal/main/l/linux-libc-dev-radxa-zero/linux-libc-dev-radxa-zero_6.1.12-1-bb9219a_all.deb
+MD5sum: a2b7f3dbbe7d2dbe8ed80923036292f6
+SHA1: 44fc08f7e9841f3b1e98b1bfb599826bf79c7248
+SHA256: ca7e3f1495a47a8e26d8bb39251d6fc0590b6a2c9d65b732f2388e9d4628fa29
+SHA512: 9266de1445ee591847253e8fb52c293ed8ce4d6451e4bcab746c3020a21dfc3bf24fd6f50f6801ff4c660e34171ecea87590518e99bcd2c0c1aed3a25365b517
+Size: 1128
+
+Package: linux-libc-dev-rk356x
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rk356x
+Filename: pool/focal/main/l/linux-libc-dev-rk356x/linux-libc-dev-rk356x_4.19.193-2-bb9219a_all.deb
+MD5sum: e3eb89356a08c5e97aa193ed2d3535db
+SHA1: 7c0b3c3e2782a4b4fb290206cd483a013b6fb820
+SHA256: fad1837fc72da80ef5e7b98a593cc78d26c8f9c3672ec91a16874eb983e8ac72
+SHA512: da58a68661e8559f9c6d4774815b370206d24cbf6e781844fa20fc752471eac44d8c899498e7b04eebef869e30334e11c038229969bddc0dfca7a927245553ff
+Size: 1124
+
+Package: linux-libc-dev-rk3308
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.143-1-rk3308
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual userspace header package for rk3308
+Filename: pool/focal/main/l/linux-libc-dev-rk3308/linux-libc-dev-rk3308_4.4.143-1-f60a0f3_all.deb
+MD5sum: bb937328cba667ad987ae9f2dbfa5d5b
+SHA1: ca89f18b17a3c8dc2fdd7d96b30a194b5adb0908
+SHA256: 908c1147c6645ba96976693cca37e87b0d1ad77d25471e55edf8d1b8a1d97681
+SHA512: 67eba355f210c8e8932cb83557809434b8bb5d485e2c073b971f1cc161adf2f5bd02c8ee21b9b3e3d28b1bd7237562c0c3a4d24cccce8fbbb6241c282784c3c0
+Size: 1128
+
+Package: linux-libc-dev-rk3328
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3328
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual userspace header package for rk3328
+Filename: pool/focal/main/l/linux-libc-dev-rk3328/linux-libc-dev-rk3328_4.4.194-1-f60a0f3_all.deb
+MD5sum: 6ce335bb1c6ec04a7b843a2b136630f8
+SHA1: 4e36ed367378010e4339d062a2e9d72be1d823fc
+SHA256: 42072a1f08683775ec1896456c10d5980572dd4c44452325204a1cf3be5ca52d
+SHA512: 47e39c3cf1619ff2a9eb260364d473a87bc2d0aba96bba9760dcb4ff722cd10ff52b3988409697ed989b307f30feae1a776ee70f661a92a60ce7316274442b28
+Size: 1124
+
+Package: linux-libc-dev-rk3399pro
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.167-1-rk3399pro
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual userspace header package for rk3399pro
+Filename: pool/focal/main/l/linux-libc-dev-rk3399pro/linux-libc-dev-rk3399pro_4.4.167-1-f60a0f3_all.deb
+MD5sum: f4c8dd5f21ae60b295813ff10ceccac3
+SHA1: 39b2075aa27784346e801dda7d79d9fbefa18e35
+SHA256: e23ca56fcf0003e9712e690262d1cafa707b6ff198989e7f4338fa03d21585c9
+SHA512: 859a09851f564767ba11ae33dedf5802d1e219c2930d46660d885601fcf8611ca484a6826a97de4cb4b95e31cfa95889a1086b9deb63da30ddd9764c213d8825
+Size: 1136
+
+Package: linux-libc-dev-rk3399t
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3399t
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399t
+Description: Radxa virtual userspace header package for rk3399t
+Filename: pool/focal/main/l/linux-libc-dev-rk3399t/linux-libc-dev-rk3399t_4.4.194-1-f60a0f3_all.deb
+MD5sum: f2ec7649c3650f3fbec1af1e81ed3a27
+SHA1: 2f49aec6e18b2ee2de878245b96c1784d8b0b13d
+SHA256: 4030251ec30dc22984f28e425fa25ecfb669720839c1ceeaef78d1703c2d45d7
+SHA512: 1c8fe29a9b2be5412dffaffc6823ec1406da351e0c54ec0c33f63da0913bac77890798ecb820ef447710651ec5f688d2d22017ae3aedf7b81bccc36d8ba3f45c
+Size: 1128
+
+Package: linux-libc-dev-rk3399
+Version: 4.4.154-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.154-1-rk3399
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399
+Description: Radxa virtual userspace header package for rk3399
+Filename: pool/focal/main/l/linux-libc-dev-rk3399/linux-libc-dev-rk3399_4.4.154-1-f60a0f3_all.deb
+MD5sum: 06e99c45d806a0244aadae278ea91b40
+SHA1: b28f1bcb2600d4868be8bcb6d7b8aa304073ad9c
+SHA256: dc3498c4b0786cbe751d1be6ab293e83452a8a18791b33ce0a773e5838474562
+SHA512: d8c27bec3383e6f881a1deb3494fce99c5548fdb57bf2277ad6c7e534f482cb462ce95029882d1767df454684ae40d20c2d64601c49d3cfc0cfc9534b40e5cc7
+Size: 1124
+
+Package: linux-libc-dev-rk3588
+Version: 5.10.66-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.66-1-rk3588
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3588
+Description: Radxa virtual userspace header package for rk3588
+Filename: pool/focal/main/l/linux-libc-dev-rk3588/linux-libc-dev-rk3588_5.10.66-1-f60a0f3_all.deb
+MD5sum: bf9c383666ea284d7fceee0767e67e12
+SHA1: ae6ae2795bd0c720583938e1c5655c5e26983cdb
+SHA256: 82270d63c599d2bfafc192978ebfd8f960ddb579b2a637fa2e54901c21bc97e3
+SHA512: a27bca943a5c011338e432460e8e47b2a59664e52f04efa3dbc8795e2973fd70125467d17f7a6d7cc008fd5f46dcf4dbe210fb386dd58ad6aefcda9b5ece72ba
+Size: 1124
+
+Package: linux-libc-dev-rockchip
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rockchip
+Filename: pool/focal/main/l/linux-libc-dev-rockchip/linux-libc-dev-rockchip_5.10.110-1-d7afc14_all.deb
+MD5sum: dc77f73fabe6171120b3b1f8520b8a7a
+SHA1: 7d0cabd40b080d7711e8b9e0f81e68b81b636e6d
+SHA256: 24224ac2a70e58838884459de6ff843f1eebda228ecfa0f1bdce734d692d7241
+SHA512: f60d16b015d4e8c3420bc76ff204a7269606975ca1201a254ce0e51c9f0aad20ed0518bed3fc727e18f950ee30a2c1369a0c270672d8c971fd7350a2c7457fd9
+Size: 1128
+
+Package: linux-libc-dev-rock-3a-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-3a-latest
+Filename: pool/focal/main/l/linux-libc-dev-rock-3a-latest/linux-libc-dev-rock-3a-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: c110e641c2939dd82f32b6842c2790d6
+SHA1: 445d89fb6d3afc4f2d1a5d3efaa06aa436ce8ac3
+SHA256: 14ced769f06c925c935808437f23b9a5d369ebdb6fadd52af79174ba8304a4c4
+SHA512: e7bcc419ba7386e9145ba5ebbd13e4e6d3c2dbb467de9a96e20820d65aa2134adc2782040e48c3da186d2360c7d9675cd3dbd931981692baf82fdced935c0834
+Size: 1144
+
+Package: linux-libc-dev-rock-3a
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rock-3a
+Filename: pool/focal/main/l/linux-libc-dev-rock-3a/linux-libc-dev-rock-3a_4.19.193-2-bb9219a_all.deb
+MD5sum: aa561928b9dbfc9d6e9b08e4520e9649
+SHA1: 16cbcfbe692a298c70d900d39f6423e7aec2040c
+SHA256: ead885a0c317756202511f5df523f8f8654381ce5c5e4e1d32735c132aae520f
+SHA512: 0938c7405ea8a613ab87d87ab788a0061375f3e7dd9e42348cd29a9a355afa6f6a5015c505df317120f1175b419e556e5ba47f58c144b9f0b02c56475a022952
+Size: 1136
+
+Package: linux-libc-dev-rock-3b
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rock-3b
+Filename: pool/focal/main/l/linux-libc-dev-rock-3b/linux-libc-dev-rock-3b_4.19.193-2-bb9219a_all.deb
+MD5sum: 15f7767e2e0fcbffa0f98443cc1d4898
+SHA1: 7d0cdead3b4539b1c93f6859678b7f39d2094411
+SHA256: c5d18d9320b8574d303008904cf138dc7fbfd419812da8da394fa2517b62956e
+SHA512: e1973bef8cf9fa7e9d38a1061320c857b58985041771d738708257ab14de7e3f0a71161b8e13507c304a0a290267e73cf9a5420c96c038d17e6f670359bb7cad
+Size: 1136
+
+Package: linux-libc-dev-rock-3c
+Version: 4.19.193-2-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-2-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rock-3c
+Filename: pool/focal/main/l/linux-libc-dev-rock-3c/linux-libc-dev-rock-3c_4.19.193-2-bb9219a_all.deb
+MD5sum: 7d626c0a0b4c705b3168ee2d6cdfae0e
+SHA1: 73727d0031b6d1f271456a77ea0943ccba9f3018
+SHA256: 93e8ea8620b9d924dff7d22c6d408031df8410a420aa1a7c2a1c75968ffa3e7f
+SHA512: 1d9b4a7db8991722fff42ff6035063b1bc6f3d7852830caf8b28040ecccb158444e146c2311c3ea4a8c086f6c1ed212af12ab91bacc14793b33ba06b0c257588
+Size: 1128
+
+Package: linux-libc-dev-rock-4c-plus-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-4c-plus-latest
+Filename: pool/focal/main/l/linux-libc-dev-rock-4c-plus-latest/linux-libc-dev-rock-4c-plus-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 4cccd7bf7e7a20710657eaf97a2269e8
+SHA1: 1e2bc0d818f9554cd95d8b0e152bd0a3105271f5
+SHA256: 2909fde021566fd393679a4d285368fe05ecf0b88eb1252deaa5dae9eb7d9808
+SHA512: 48e3a10d93c8b3a1e57cfbb497c547d498dd6f37014d79a677008e279e194c678a17980f935efccd829240ae7948077da4703f49fc4b28b4a3aeed921d2f7464
+Size: 1152
+
+Package: linux-libc-dev-rock-4c-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-4c-plus
+Filename: pool/focal/main/l/linux-libc-dev-rock-4c-plus/linux-libc-dev-rock-4c-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: 37101d7c7bb593b86a5fbe238b5187b7
+SHA1: 14c17eda2d392042d7cab3e0a7f3dba83b4e1781
+SHA256: bc860b41d80e11be754aeafc6b2dbcde818e68f4d68e64636e94354ca5ea30af
+SHA512: 37cc12edc36af66703191dcd089d989eb70624c32b27333ea3827b1affe94e0e100517306db2eeb2be903c6fe8e810b5ebd6938e73a39bf31c626c7c98ff64b2
+Size: 1144
+
+Package: linux-libc-dev-rock-4se
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-4se
+Filename: pool/focal/main/l/linux-libc-dev-rock-4se/linux-libc-dev-rock-4se_5.10.110-1-d7afc14_all.deb
+MD5sum: 3d724048df12eccd03c7c00036ec78c7
+SHA1: c337dbb05ebd479e103e65734c6daadba68e6252
+SHA256: 9a96f716df516ccf8d2734e62854c3af5c8947fb2a681f70dba5b34a5d4b3d31
+SHA512: baa59b1187c82517b511a6293e0a76b124e1c13c53cf705665592e91017c7e6fae16dff65349645ec7f58aa611f826afadaae46fcbecbe2d55f1adf8e05aea7e
+Size: 1132
+
+Package: linux-libc-dev-rock-4-core-io
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-4-core-io
+Filename: pool/focal/main/l/linux-libc-dev-rock-4-core-io/linux-libc-dev-rock-4-core-io_5.10.110-1-d7afc14_all.deb
+MD5sum: 453dfce8e27a128adedd576148f523ad
+SHA1: 24c69b0a1c7d1af10ef0b43ae805ee588ddd843b
+SHA256: 877254b00563934e8d157f7a5d34112e2f3153d23973a366a499ee1f73a553b4
+SHA512: 9f5bdfec6edb2459b62c3f17e7e5ee91723fb5f3b9f370c856c9c2f43752836c657d3792fcbc716c8fb58138e05056889dc19950484751b64192208ace5e358a
+Size: 1144
+
+Package: linux-libc-dev-rock-5a
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-5a
+Filename: pool/focal/main/l/linux-libc-dev-rock-5a/linux-libc-dev-rock-5a_5.10.110-1-d7afc14_all.deb
+MD5sum: a70588cf8e9e5adf3d60a1440a18be13
+SHA1: 3c1d94a8a0a2c43cf0fbaaaed40a3282e5cd6e54
+SHA256: 15ae78199527d75d332fe9ff856a03ae6af91d69b79f7f3cec3a32d5508cc50b
+SHA512: 3397e16c650053212f77973d17b583b4239cb4b926e57cc024a69bc72a4a1452eae6d31a6cad36ed659572b43d7636c04f59f741692279c4e815a0a2059e611c
+Size: 1132
+
+Package: linux-libc-dev-rock-5b
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-5b
+Filename: pool/focal/main/l/linux-libc-dev-rock-5b/linux-libc-dev-rock-5b_5.10.110-1-d7afc14_all.deb
+MD5sum: 1c2f2b10ef431b2445bf9a3f08cd2d53
+SHA1: 8d8f178390fcb449a59111e81e0179c0f9dbfd86
+SHA256: 8333b7b174f37698729ce4fd9bc4362f1bdb236cfffa9fd64443e67b66b10574
+SHA512: 42de3d270f684e63a6c86cdb8aed57fcc72f05a3064e9b65df5d1a2b986eced574d9a87f79c041f423607bc57fde686ea01524c7c82b7b8ed96185a4fbbecbe0
+Size: 1128
+
+Package: linux-libc-dev-rock-pi-4a-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4a-plus
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4a-plus/linux-libc-dev-rock-pi-4a-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: a997e43108769a8d866276fdb338e924
+SHA1: 1ea60325c6887a83c14c95e8132bdf1bf4ccf1b5
+SHA256: fb20b0346eab68cec1f4d7049daa1670b63f08ae906639ec2998fedd411ee21d
+SHA512: 1446c55598cfed086f520a9055474099b92b7b6c0168ca81032e2de7606617c111ec157878f1885b80884a45a31f555e14ab2c0834fa3b1346b3ca12811fb0f5
+Size: 1152
+
+Package: linux-libc-dev-rock-pi-4a
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4a
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4a/linux-libc-dev-rock-pi-4a_5.10.110-1-d7afc14_all.deb
+MD5sum: 98c1929f2a95d0f79847f242bb1b684e
+SHA1: bc205ca632269bd859401ab6de787c039038f344
+SHA256: bc5efc6980d44331a629a31fc3b436f1cc19aeb40d8461ebd7914cb0179b44a1
+SHA512: 5bb8cc883010b2416febe3e34fc32c69291107400c218d7042ff0e1fd454668a1993b19ae98e28c77aa03565e4d6f6515edb1541807dff56364b6b3bb3369d9f
+Size: 1136
+
+Package: linux-libc-dev-rock-pi-4b-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-4b-latest
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4b-latest/linux-libc-dev-rock-pi-4b-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 2116e1ef1ddb1da589d7a0f62a4baf00
+SHA1: b30c3ed2d5b63ba63f9ba45c44d464740fe0571b
+SHA256: 73f0a5dc3474eaad1f2e59445b7f99957c8a9e1ba4b7a6e8589c8a988f9295e5
+SHA512: 3531faa41dd6fe49a0232718ab62a6f7ee9890f03e0b31a642cc00baa9892704fa21df327218acb6c7d376ad4caf8c5eb7cf883a1a5e9200ef999bc227dbff0f
+Size: 1144
+
+Package: linux-libc-dev-rock-pi-4b-plus
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4b-plus
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4b-plus/linux-libc-dev-rock-pi-4b-plus_5.10.110-1-d7afc14_all.deb
+MD5sum: 82489f81887e545d13bf88c09c16452d
+SHA1: aea045f092d37867c481da56984e20fda41b4215
+SHA256: ce487ce8aec284341b131e7934b28474b60efa56c908f683593458335c6c4ee2
+SHA512: 0e1fe55f2f55619cc8eb9b2a62ee37fbfa93ccdd534f72afb261d41f4f66be3c220bca5ba832e2d59938173d054b68fdee083dde842d1b1fe435da0ce99ceeb9
+Size: 1152
+
+Package: linux-libc-dev-rock-pi-4b
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4b
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4b/linux-libc-dev-rock-pi-4b_5.10.110-1-d7afc14_all.deb
+MD5sum: e9e1ad7e0da242159eeb9fa07088b440
+SHA1: 220dbba58a13de510b20215b0ae759e60f92bb87
+SHA256: b3fa40aafb46b297da7c7098c2cb217b641f050e80c7eaa36397256e30057539
+SHA512: 75f9bbdc2a15cf6aa25edecc7d3c483c812b4030a5dbd3139218e3eccae74025080c2b653b47d7ca70b8fdd8dad02d6c0934089eedf86323df54823459af0c83
+Size: 1136
+
+Package: linux-libc-dev-rock-pi-4c-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-4c-latest
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4c-latest/linux-libc-dev-rock-pi-4c-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 51215c1affdf5434061a3d0fc3d70854
+SHA1: b0ea86e170e83440ef462d456dad05f663bba0df
+SHA256: df3ba7f447203d59c438acf1e9d4f3415b92c45d03622276718857b7eb6cb8a8
+SHA512: 64c92fa2595d1620ec4ce425c2ca8d863bf38cb726c02084851c969254149baf694a0bb75e60d574c3c0e0894c64abf0e60744395bd4f01227efbded14d78492
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-4c
+Version: 5.10.110-1-d7afc14
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4c
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-4c/linux-libc-dev-rock-pi-4c_5.10.110-1-d7afc14_all.deb
+MD5sum: 2bea125f5b5c43e00cdc71967568e42e
+SHA1: 0ac5b894729d4d22e8ec12652923bb29f782d745
+SHA256: 2167168647d7d18cc6623538e208b9d057f8c1abceea413a5c9c168a96f220e7
+SHA512: 6413c81c311daae46088e8b2caff37799cdb4488400900387cff6c793b8a95aa7d696f88ef2f1db12ba55b7352336625e5f40c8c13d99763a8c526c853f7cedd
+Size: 1136
+
+Package: linux-libc-dev-rock-pi-e3
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3328
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual userspace header package for rock-pi-e3
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-e3/linux-libc-dev-rock-pi-e3_4.4.194-1-f60a0f3_all.deb
+MD5sum: 2810108fdf8e215dc3099b607f5a8be7
+SHA1: dc2639ca5d1c7f731efd5fcab736767f76fc112b
+SHA256: 0dc762e43ea0b8db56d91eadcf76280054ad6f50fe2e8ff5df3a43eeb88dd76f
+SHA512: 783ceca0bafb5e9b67eb3d1f10743a904aae37416aa39073e034e130b63b98eef40a7f4d514834d2df216056d8062a35a210075d73cdcaa3126581db1820eaae
+Size: 1140
+
+Package: linux-libc-dev-rock-pi-e-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-e-latest
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-e-latest/linux-libc-dev-rock-pi-e-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 478db9f926254b7fa8a0ed27b0c9b496
+SHA1: 2f8b7ab841a5ad77d3225ebffa872459773ad9d6
+SHA256: 4254ca7725594bdc3925918bce77d3212b021426ea65f15f3df247c1c0d523db
+SHA512: 2d3c204d79ba9ccb38819cb3efb905d0866aa388c054664f015b6c7defc1f71c4f2740588077d760b9f9a169f6c738e58638fc4747a51f9152836da10c5bc23d
+Size: 1144
+
+Package: linux-libc-dev-rock-pi-e
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3328
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual userspace header package for rock-pi-e
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-e/linux-libc-dev-rock-pi-e_4.4.194-1-f60a0f3_all.deb
+MD5sum: 43dd0c3f4006feefcd14cff028feadb8
+SHA1: ffe9b2ecb29eaf37cd65a636fceb1c2c93f32dce
+SHA256: a6611bf9f31d865d55b007b75966812e83cd4b5d784ace9f28ac7e891a214ab9
+SHA512: bf2d0513efbb883e355965d38ab1c2277a573d6fe7ea9a9da1de860b9822bd34ba29f5b24ed6ca8e491b0af8365c388e0175f53e35c2b1c47aff4944b515a891
+Size: 1140
+
+Package: linux-libc-dev-rock-pi-n10-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-n10-latest
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-n10-latest/linux-libc-dev-rock-pi-n10-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 4b282f0d3ca735eace31bd7023edbc1d
+SHA1: bd8e7b6bd4b021582b5ae79ef787fb7436865112
+SHA256: 70415580b1c4d94f3b68659854408a962763e8783aacb079b266deaf96c4c743
+SHA512: 9c1ccd9a3cee98f01168fd5b3aae8078a0e917cafd218768f47c9cbb25ebc96655a8c4ae4c9cfda0761de0db6d75fd79d54c07b1d61d1cf10e5615ba66c70730
+Size: 1160
+
+Package: linux-libc-dev-rock-pi-n10
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.167-1-rk3399pro
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual userspace header package for rock-pi-n10
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-n10/linux-libc-dev-rock-pi-n10_4.4.167-1-f60a0f3_all.deb
+MD5sum: 6cb86142a983918aae01a81e18559f70
+SHA1: 990202ce01e62a0a953a15630f823033fb480800
+SHA256: 583e8d241ecd3b594f1e8c519adcdb2738fd0fe7a27020b42f662627662c6eb1
+SHA512: c37c8e3f8151d71305b6e1f87054a847fce17cfdab9cec001a717f01d564800bdc0fc05ccbaa69de5b743c5d7214db66e48a168fd2515309eb636058efd6b0f2
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-s-v20
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.143-1-rk3308
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual userspace header package for rock-pi-s-v20
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-s-v20/linux-libc-dev-rock-pi-s-v20_4.4.143-1-f60a0f3_all.deb
+MD5sum: c634eb3fb5abf082ca2bd76ac04d495a
+SHA1: 79bce408540c5889f9c55862f5f6fcd95426e6f9
+SHA256: 2a002af0088e0b54574f0034ee271398c61b6cfd0b6e4a7fdddee94d3dc3a786
+SHA512: 214c9bc84b952e1d76a71be756f776a4b26c51a3b06c886b63598ae1036a9326c46ef6ded02eb977f50f496c9f2446a58063f80ce4d84f68ed8affb7d961e9e2
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-s
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.143-1-rk3308
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual userspace header package for rock-pi-s
+Filename: pool/focal/main/l/linux-libc-dev-rock-pi-s/linux-libc-dev-rock-pi-s_4.4.143-1-f60a0f3_all.deb
+MD5sum: bfa4becc46652092579b25493f1110c1
+SHA1: 8ca8b7b1922ff852dcbc78034e07e6e622eee56c
+SHA256: 8e3741a7349837dd86a353bd620afac4396dda564d4a006b2669fdb49cb4588d
+SHA512: 313258d88ef5df935eedb88be70638de6c7d1073f6407248fc4c8c9c9a874fb1ca27067294e427050c67d75f12b59145443af0894748a1d6de53a97a814adeee
+Size: 1140
+
+Package: linux-libc-dev-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.167-1-stable
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual userspace header package for stable
+Filename: pool/focal/main/l/linux-libc-dev-stable/linux-libc-dev-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 8859ad4b832ecde0804066413d37627e
+SHA1: 9f07220f31a46df67359647625b3051211af3748
+SHA256: 334500ce314f4d7358c2dd106eab816deeb63f255749beede823b8e4eeff3716
+SHA512: 5ec1a2b8cabadc8d9c00556751b74159aff711096b88b53126b2298f7dc4727a265a34a6022acbe881d43ad777988d476d43de5f26d5b4b7892e2b4cea45b572
+Size: 1124
+
+Package: linux-libc-dev
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 4129
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/focal/main/l/linux-4.4.154-1-rk3399/linux-libc-dev_4.4.154-1-86a614bc1_all.deb
+MD5sum: 82e71003c725d73a9c605ad5662f20fe
+SHA1: 741c31075cdd30dbae6e95b87856cb345f23b66c
+SHA256: 384bd44743a9d97b1094ea6247d416c3b9b433515f4a606f98476074c994010d
+SHA512: 9d3d1e5d4647346e88fe7160ec7f94ada870ecb5c7151b5e7950d34d146dcd981864b89b721146795e99de30bed52ce06e00e635971b52735abc4cb59daa0012
+Size: 812312
+
+Package: radxa-archive-keyring
+Version: 0.1.0
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 14
+Section: misc
+Priority: optional
+Description: Radxa APT archive keyring
+ This package contains the keyrings used to sign
+ Radxa APT repositories.
+Filename: pool/focal/main/r/radxa-archive-keyring/radxa-archive-keyring_0.1.0_all.deb
+MD5sum: accb5f276e7b2ace5552594e6cc98606
+SHA1: 2a2387d12da3b99f5b6b2696b87a3dccda0bc459
+SHA256: 1dbd592be9b05e2f8621252a33b556dcf315f384ae0276024b4938939c99655e
+SHA512: 1736f577f8a9b00cfe5b433364b34f7c3a82442fc85ae626e5d23aab2f68052b00b5d2f448d5ebe7c3f73536ce7efff58c7943d2ac71083be7806b6ce0dcf16f
+Size: 3164
+
+Package: radxa-bootutils
+Version: 0.2.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 24
+Section: misc
+Priority: optional
+Description: Radxa boot utilties
+ A collection of scripts to support system booting.
+Filename: pool/focal/main/r/radxa-bootutils/radxa-bootutils_0.2.1_all.deb
+MD5sum: 58f14f9fcdd223904b9ce8838133cd93
+SHA1: ddbdbd4c67ecf4b75368be099c4f87905362991a
+SHA256: 6846a359eb79127484dd1cab2bfbf258f8c451a671beb53aa21d9839b9326571
+SHA512: a1e889d1962821f64004a8ffa7b0b987315990c579bce350202431675b51c4c6f2c1480d5ca739e5e2b8d4d44e2d1809ab685f7ee8189ddbf0ad3f5b17b4bfc4
+Size: 3324
+
+Package: radxa-firmware
+Version: 0.2.6
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 1353
+Section: misc
+Priority: optional
+Description: Radxa supplemental firmware
+ This package contains firmwares that are not
+ shipped by Debian.
+Filename: pool/focal/main/r/radxa-firmware/radxa-firmware_0.2.6_all.deb
+MD5sum: 6056d25d4dd81a6cf7e4c1d11fd2a2c6
+SHA1: 39500fba4a6661e825aa89297b34ff2ca3610fa0
+SHA256: 8417d01f0ba5e1dee38e09034343d0fb438e7ac5c396b0eb75c19b505c876ef9
+SHA512: 287156bce8a721bc571830d89c752aedf52dc76e9a2f21b98ee3a36a78071582309d192f959fbf07195d33f3bf7c1bccc41095f1c4911ac40fc1151b8e9d576a
+Size: 605688
+
+Package: radxa-otgutils
+Version: 0.2.0
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 35
+Section: admin
+Priority: standard
+Description: Radxa USB OTG utility
+ Radxa USB OTG utility (radxa-otgutils) provides additional
+ features over USB OTG port to facilitate easy communication
+ with another computer.
+Filename: pool/focal/main/r/radxa-otgutils/radxa-otgutils_0.2.0_all.deb
+MD5sum: edc8645d826222306abf83dd8e8f61da
+SHA1: e84dc5f7565f51942e7cdbc4484858cdb0261ee2
+SHA256: e39e7662a02da6b9dd79e33245b20378c29bf0031453f035dadac4f0bf06de32
+SHA512: 6a502ba7be5b07e53916d49d80bd1a21a349f018d4820b612b53a9cb95499cd27571b08db03b6328da2c22c58e82ebb24b81083a83ddc9406f882a2489422c8d
+Size: 4932
+
+Package: rsetup
+Version: 0.3.5
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 102
+Depends: device-tree-compiler, gdisk, parted, whiptail, yq
+Section: admin
+Priority: standard
+Description: Radxa system setup utility
+ Radxa system setup utility (rsetup) provides an user friendly menu to
+ perform many essential system configuration tasks. It also provides
+ an on-boot configuration service to allow customization.
+Filename: pool/focal/main/r/rsetup/rsetup_0.3.5_all.deb
+MD5sum: 3e42ccb5e38ca6bfaae76e8340bf6e98
+SHA1: 9920b7f047de4f45d9db8445152b492b60ddba16
+SHA256: 9e175deeac9c815a17c65dabe2e70a491dc507cc1b84099316019f7bbfb9962b
+SHA512: bbc4fb2c779fddf4ed1af0556ede7f13fb94a7bdf3abf6ea641cbf4abb9a1b186b1161f9f0d43749826c0ff227a58c0b36a95c3c378bf24f44a14df14a4e96a7
+Size: 15940
+
+Package: u-boot-radxa-cm3-io
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-cm3-io
+Filename: pool/focal/main/u/u-boot-radxa-cm3-io/u-boot-radxa-cm3-io_2017.09-1-1a41c31_all.deb
+MD5sum: fa9ffd50f6f1061a1881378f9281c3be
+SHA1: 660da87e6ac3565388584428aa7e8c53c788dc42
+SHA256: 2186ab6c74af5df9f21f655380feacb636846753aad5c4fd29f86e8f86dcee58
+SHA512: 574a2f2cb9134b177bb04304a9befced65fe7f0b84d1ffe5851c5a19ce06833a963ebf3ecd31d8982508637b4a8b548ec3e04cfe8e053b283ae44b2281af3d44
+Size: 1112
+
+Package: u-boot-radxa-cm3-rpi-cm4-io
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-cm3-rpi-cm4-io
+Filename: pool/focal/main/u/u-boot-radxa-cm3-rpi-cm4-io/u-boot-radxa-cm3-rpi-cm4-io_2017.09-1-1a41c31_all.deb
+MD5sum: 440ef8dcafbd0fbc0b331078eaa52ff6
+SHA1: 0662053c12c66351094162979bf2706896902300
+SHA256: 14f50093e93fe6a0c1ff1a864e093b9f8a7784a02eeaa4f9bbe7ab50224ef29b
+SHA512: ac229cbc1c70fdddc8875ccb69095118f4c05a3b11d1d30f8e347a3fac176da7c60fbe80b7d6e1083a8129e52e5c7f7ca2d2ef8f9c136a2ba0cb2a54bdecfca3
+Size: 1132
+
+Package: u-boot-radxa-cm3-sodimm-io
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-cm3-sodimm-io
+Filename: pool/focal/main/u/u-boot-radxa-cm3-sodimm-io/u-boot-radxa-cm3-sodimm-io_2017.09-1-1a41c31_all.deb
+MD5sum: acf494c9a2185e0fe99b50ae0184642b
+SHA1: eb298c58aded94bb337ef68683f1f859d4bf2418
+SHA256: dc396d632af3a015c3a41ac9c8e2724e397e3483e56b188536d9f56e3e9752d1
+SHA512: 7eb58e6f07afb282822d8c2ad01d3f1a8eeff1660da497c7d1766207b498e7ac016439d07011f1c0a30f6d43e4bb814f50fa57f8a77dbac789434bf3f9c3616c
+Size: 1128
+
+Package: u-boot-radxa-e23
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-e23
+Filename: pool/focal/main/u/u-boot-radxa-e23/u-boot-radxa-e23_2017.09-1-1a41c31_all.deb
+MD5sum: 1dbb15dfd039ac4d36cab2294affe0ae
+SHA1: bf736d01534af9e5627f143574b720c7e7eeaa0e
+SHA256: a1ad95d605c5b38df4d1dd24f54ed071ca7cb0f720c1e1f07e5f3f95566e1140
+SHA512: ca978649ad88c1ea5b5e7c205d68600f20bf2b156250899a71f98419c00ceb95a16a36dccccec5f207ccfbfddab0b9e8f0754b658ba69ebb8b11dc303fd30b86
+Size: 1108
+
+Package: u-boot-radxa-e25
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-e25
+Filename: pool/focal/main/u/u-boot-radxa-e25/u-boot-radxa-e25_2017.09-1-1a41c31_all.deb
+MD5sum: 147ddee8c6289fb82ef7bd89b57027da
+SHA1: 5194b3109447e7c4a14315a2d10bf750a40b4735
+SHA256: 5bb0c122c3ce443fe502448fe1ff0e7501335213da6ff7fa4fc67b5efa805134
+SHA512: 3a7c5a9c0f91de1914773ec471a3fcf4e797d54a52ae87ac718306669ce50453def6449e0d0470df4146af328cfd5f407f0eaf4ee7743f7a8a8848a86831fd07
+Size: 1112
+
+Package: u-boot-radxa-nx5-io
+Version: 2017.09-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3588
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa virtual U-Boot package for radxa-nx5-io
+Filename: pool/focal/main/u/u-boot-radxa-nx5-io/u-boot-radxa-nx5-io_2017.09-1-bb9219a_all.deb
+MD5sum: 5bab728f56ae4e6963d00d049439a849
+SHA1: 44c2d62f77704b83a44c4df3a1a3ae0dd045aa6c
+SHA256: f4d29412ee7f40bfe5f4dc547a890be94d1b9c500aa3bff86ef2a6d28efeb010
+SHA512: 8a7111dc397675e93e7cac5583cdd94d4aecb8c45f0ebca77b73b856895467a657eecb14984167662b8b3be2f82fba092d885d7ff4f4aeed78b51e8036d464be
+Size: 1104
+
+Package: u-boot-radxa-zero2
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for radxa-zero2
+Filename: pool/focal/main/u/u-boot-radxa-zero2/u-boot-radxa-zero2_2022.10-1-bb9219a_all.deb
+MD5sum: 7681814d55371f88b42ae507b0a928ae
+SHA1: fcae9bc5fb300b20f4f16cfcbe84c58053cfe73f
+SHA256: b0d3e0059d0d8a555e259ee0931ab020f995dd4d921a5e9795d180932371ece6
+SHA512: 9d0efbe888537e1b865eccd8e959a9a2b7a3f5ac910f236c5279de2bf21e530448f334e31f31d89cd24b0a2018f0c32bfc0d21109f68793eb64016019554d317
+Size: 1108
+
+Package: u-boot-radxa-zero
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for radxa-zero
+Filename: pool/focal/main/u/u-boot-radxa-zero/u-boot-radxa-zero_2022.10-1-bb9219a_all.deb
+MD5sum: 7fa1d8e228948fa4fa47a9b952dcd377
+SHA1: 782245131ec77b20d96bc81434a1ac3964b2028f
+SHA256: bc5945a71269b49f542f68b141e23a9bd1f6cf0a3cf2d059ddb1cf53aeb5fd95
+SHA512: 73ab806ef4531f7b93837730581dd0fa364815dfe29bda6a6dc697cb3b1df87bdfcfa4c9bb9f5ca2a2a0470622dad21c062e4f9f00c5b61446b7f233590fccd6
+Size: 1108
+
+Package: u-boot-rock-3a
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for rock-3a
+Filename: pool/focal/main/u/u-boot-rock-3a/u-boot-rock-3a_2017.09-1-1a41c31_all.deb
+MD5sum: 8fbe00f69585dd89be2bc8fb6bc60917
+SHA1: 474a5a5c3a13a63335a8633b1c97db1a1ec3ead2
+SHA256: 351f58195e0e058da4c24b71ed730ac0279efcb345e7e89bf0326887a53a0af7
+SHA512: fb42cc40d81819ef706083c8403d3b6d027ce45b7f8a21988ee5858cbec86137b17c0caf7c9a8740af7c1d084d5a351806ae3f770ed25a263b7ce5226671e838
+Size: 1104
+
+Package: u-boot-rock-3b
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for rock-3b
+Filename: pool/focal/main/u/u-boot-rock-3b/u-boot-rock-3b_2017.09-1-1a41c31_all.deb
+MD5sum: d22553060a6199eff9034cc5cef8892c
+SHA1: 22d4cb002c0f8c499f88bad3f9fb72c24fc4fdb1
+SHA256: 183f0520ec9b335fc1e87fc7ab6a66d9bc521bac7fc632531d065f02c47800b8
+SHA512: 89c26eb4feedf6bbd718de3cfc34c2375928c369986fa53679ed517e9ef38b0f51f875c33a065932876633debae65bc29034b4dc954c8043e5575da059bb2ab2
+Size: 1104
+
+Package: u-boot-rock-3c
+Version: 2017.09-1-1a41c31
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for rock-3c
+Filename: pool/focal/main/u/u-boot-rock-3c/u-boot-rock-3c_2017.09-1-1a41c31_all.deb
+MD5sum: 7fa788312bc0a1a33d119d28597fad75
+SHA1: 641b6ba067acd67202f505fdd32a7924c2b7dacd
+SHA256: 562ba8fdc2b0fc7db48c7c15dbf10714f7450975708af38b8eee44d9de25970f
+SHA512: 80cfbe4f912da56ac1d1b7307ac4a62cbcf93c5b81916c2ae2a460e48d34655c20417f1285c073d5b386750c72f5efc764bb696ed6fceddcdcbc98501668130d
+Size: 1092
+
+Package: u-boot-rock-4c-plus-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-4c-plus-legacy
+Filename: pool/focal/main/u/u-boot-rock-4c-plus-legacy/u-boot-rock-4c-plus-legacy_2017.09-1-e940426_all.deb
+MD5sum: b988db593d021298d7aa6c587cffab6a
+SHA1: a5141b0828586a08fd26228847f06c012668a3fb
+SHA256: dc86c0d0b05c37e8e04c76fcbaeeaf1d59880467a41aa237d12f6f44ec98e066
+SHA512: 7d0344457888afedcf1fd4c32fcb772e09871ddab62e114ed26534223efcad7bf1e3aecbcac965dcb091d4839c7f0d3755610310160d0d356e0cd87641a9146c
+Size: 1132
+
+Package: u-boot-rock-4c-plus
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-4c-plus
+Filename: pool/focal/main/u/u-boot-rock-4c-plus/u-boot-rock-4c-plus_2022.10-1-bb9219a_all.deb
+MD5sum: ee2a11874a06b9613e3c270107916b5e
+SHA1: c8dfab2812ae940e51b89e3457793a658d7842d0
+SHA256: 0b0bfcfa03f2f950592c49964623b1e4589a9f8173de7039bc2d4b8f6b50646b
+SHA512: 60f46c1ad424440e73f4fa105d83fa3dc1e91bc28efb5a84c5f1784020e4dcd0ed9e97826bd8187353ced471b8a2df4cbf3ecacc09ade5bf6e34c60280170385
+Size: 1116
+
+Package: u-boot-rock-4se
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-4se
+Filename: pool/focal/main/u/u-boot-rock-4se/u-boot-rock-4se_2022.10-1-bb9219a_all.deb
+MD5sum: 2f6c1b492e214b474aa75e81ed665e4c
+SHA1: 3961e8af1c3d4f29acb4311221ccb22a2dfddca5
+SHA256: 5e68c29a709b2df73090689f0704c14cebbec7a7f2727ea17f5a70d2bf2cf768
+SHA512: c2f14f0014cf29a1608df3701aca5046d6690318aae4b3c06f0518ff51a0a9073a1dd93d2dd83a1c377893f14f14bbeefad4c72830d189ec17e93e73c6c15a1c
+Size: 1104
+
+Package: u-boot-rock-4-core-io
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-4-core-io
+Filename: pool/focal/main/u/u-boot-rock-4-core-io/u-boot-rock-4-core-io_2022.10-1-bb9219a_all.deb
+MD5sum: 951168bf9743fa8ce4e759e69b4bd66b
+SHA1: aeb68f1004b1fb5017a8c5eee3ad15b0148cdc84
+SHA256: b3748ed976fdc61efc1658b7ba229b7124d1e60c8a6c523966dbf9a96928b12a
+SHA512: 073b0c2a1108d163c2bae86ba2834ff0b12629d5fe8961fa736da47e19d7a4d936a911f60b214eb9ae0d25284af4580c0f6b853af63879482bd2cfb0050f0cbc
+Size: 1120
+
+Package: u-boot-rock-5a
+Version: 2017.09-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3588
+Conflicts: u-boot-radxa-nx5-io
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa virtual U-Boot package for rock-5a
+Filename: pool/focal/main/u/u-boot-rock-5a/u-boot-rock-5a_2017.09-1-bb9219a_all.deb
+MD5sum: c8878e7bd94037abeefde9bfcc94f201
+SHA1: a00b6b4b1348c86fec3a20a74081b4787420e202
+SHA256: c912cb34cd3baee081f8fba2aea8186579d12c9813446c2400e3ddda9b3bc60a
+SHA512: a37b526779fd3029996b38e2c7fbc229ffcb2fb414775a62a82010748f3e40be315063fc614f963ef286f1e0161a8214a6e17d4be674781323c2298c5eba13ab
+Size: 1104
+
+Package: u-boot-rock-5b
+Version: 2017.09-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3588
+Conflicts: u-boot-radxa-nx5-io
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa virtual U-Boot package for rock-5b
+Filename: pool/focal/main/u/u-boot-rock-5b/u-boot-rock-5b_2017.09-1-bb9219a_all.deb
+MD5sum: d310f710ffc81e75884d0b0228817ea7
+SHA1: 8d0c3395dbcdb62b38bbb7c4750110115c59563b
+SHA256: 8ddf25f6993dbb1c655ddc54454017e8a7b394621d7b359257f551396f640b02
+SHA512: f3ceca7f308ccd8ab22d6773b5b6bfff30024420d7ebfe95b6bb204391e1b14896eab3bc42f60b75e12fe5b97daa3f8db4348f13b502d5b3aed3dbffd018fdd9
+Size: 1108
+
+Package: u-boot-rock-pi-4a-plus
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4a-plus
+Filename: pool/focal/main/u/u-boot-rock-pi-4a-plus/u-boot-rock-pi-4a-plus_2022.10-1-bb9219a_all.deb
+MD5sum: 69a5de7db04687f39f091ced0267aadf
+SHA1: 8db3a61f7b980d6bd8fc9e1a562b885b43bd6410
+SHA256: c12d78e1275e7974b46d41f01f6a57e4b5cead2b4c65fb50914dcf6019a3c5cf
+SHA512: 637408beaf15a03530261898e0bf6be81f76df1385b58eac4c25e7456f1a9f6748c4997fef0d09652ba99a877441d5dc0412f338fdd739625f8e33174dc63fe2
+Size: 1116
+
+Package: u-boot-rock-pi-4a
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4a
+Filename: pool/focal/main/u/u-boot-rock-pi-4a/u-boot-rock-pi-4a_2022.10-1-bb9219a_all.deb
+MD5sum: 7fa06dba6d5c1d51bcdef08b3ba3c3e5
+SHA1: 5cd53a064f8794b088bbb357084ce7495e088c44
+SHA256: 28ec9b268d04c810618ec4e24c0739068647e3dc50c75768d04518bacbbe1192
+SHA512: 373269509e20bb5a41a6f51d05111343d66cae1cc64e9e2c4f37a30180941f18db1197afd1df941bf275a9bc58ab422e18513f87cd945f3e4885dae88836e34e
+Size: 1108
+
+Package: u-boot-rock-pi-4b-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-pi-4b-legacy
+Filename: pool/focal/main/u/u-boot-rock-pi-4b-legacy/u-boot-rock-pi-4b-legacy_2017.09-1-e940426_all.deb
+MD5sum: 4af5920b0b15e02e480cce7c082412dc
+SHA1: 5b81a0032e821216b52c026f6e9687787dd5780c
+SHA256: 3e27137d9b1c8fdd736452c5ce3c846d288617d9c5fe11c391a5c9106f9e3661
+SHA512: fe3dd582eb51b82c6111408b347b672931956fb89f50619876c7f9758cc54563b404840b7769b3f8dc4255e81b23350313db62d4924fa2028f87bf7f95a8b26e
+Size: 1128
+
+Package: u-boot-rock-pi-4b-plus
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4b-plus
+Filename: pool/focal/main/u/u-boot-rock-pi-4b-plus/u-boot-rock-pi-4b-plus_2022.10-1-bb9219a_all.deb
+MD5sum: ecddcd2d0da0825be1e7ea53c3073848
+SHA1: 1b9aa980fbc840a058c7a346b9d8c5c2075f53a6
+SHA256: f5aabdabd86ad214a590571351b9cf36091504fa51e151a26f6da90f8986beeb
+SHA512: 697986e56fd9f9a01716a85be51b5f94552ef92a8560b9cf931ea555c3c320b3b087f82db3262fc9fe7ab5f09409be6f5af13ea7eaa525627e16ef5a195e1933
+Size: 1120
+
+Package: u-boot-rock-pi-4b
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4b
+Filename: pool/focal/main/u/u-boot-rock-pi-4b/u-boot-rock-pi-4b_2022.10-1-bb9219a_all.deb
+MD5sum: a3c971a01c883818ec75af2ce76169ce
+SHA1: 131f9938774d34562ce459f178dd0fb0c0e97472
+SHA256: d38c489ee5439d71a96d28bf1d01642a1d211b45e40ec3fdef1d7e782822133a
+SHA512: 99b9aded739285e127fc88f540f5c7b104be9c8ba4056fc57f3c28dbf0acb1d2544840eaf35f7aa77138a0b6d829613862b3f95acde28bbfc2870ba86efb9c36
+Size: 1104
+
+Package: u-boot-rock-pi-4c-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-pi-4c-legacy
+Filename: pool/focal/main/u/u-boot-rock-pi-4c-legacy/u-boot-rock-pi-4c-legacy_2017.09-1-e940426_all.deb
+MD5sum: 54afbe0cb310648f456840a67ce6c436
+SHA1: ce9a118f9ecb7d381fcdd5dfabfd9c9b838f45d0
+SHA256: 019674aa7070c9f362e87feab81b671a088b8da7509d7ced436838224cfbbf49
+SHA512: a4adacce8562cce6605f91833dae1b5d0a6da3aca7018168c0ce619bf2a7e0ce1168f92c3a51447c02f315580137274812caa12bdc7f492f822c1a8ca6a6f482
+Size: 1132
+
+Package: u-boot-rock-pi-4c
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4c
+Filename: pool/focal/main/u/u-boot-rock-pi-4c/u-boot-rock-pi-4c_2022.10-1-bb9219a_all.deb
+MD5sum: bd2b375d28d1eec608bd17f0dcf3f1fa
+SHA1: 14b19d66d88ebc90e05bb79e5778d5d04d4eaa13
+SHA256: 3596180ac748e9a31caa60cd294a21eef43fad1cdeb4706c6b2a5e53c73fb67b
+SHA512: b5253c8322559daa7ca721a8661b9241847ec403c84b130d9887c0bd316837720980b7a992fe2d9cab022ac87e98b6f4aa7b8294aa3dad49382b1ecbebdce3f1
+Size: 1108
+
+Package: u-boot-rock-pi-e3
+Version: 2019.10-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3328
+Description: Radxa virtual U-Boot package for rock-pi-e3
+Filename: pool/focal/main/u/u-boot-rock-pi-e3/u-boot-rock-pi-e3_2019.10-1-f60a0f3_all.deb
+MD5sum: 56f4c0b877578add2be006fa93209386
+SHA1: 7ca5cb50b40472d41c269fc1b0c1a7b478d33fac
+SHA256: 9fa277b4b06be325d100eb010299e202f9b5d17f6ecea6959a4a6af603a54ede
+SHA512: f2a03a66652c6abbd3ce72d3465abddc09085e71781a0563c816db1bbca7ba06619ed7247ef57beafa29855cea94cb8b771156b8ad44e9fabc21ab5e1d2b429e
+Size: 1096
+
+Package: u-boot-rock-pi-e-legacy
+Version: 2019.10-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3328
+Conflicts: u-boot-rock-pi-e3
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3328
+Description: Radxa virtual U-Boot package for rock-pi-e-legacy
+Filename: pool/focal/main/u/u-boot-rock-pi-e-legacy/u-boot-rock-pi-e-legacy_2019.10-1-f60a0f3_all.deb
+MD5sum: c796c79f25c1fa32ed2e52fd45819282
+SHA1: 0bee72bdc3d11bafdf803fd5d98bd91041816e62
+SHA256: 1c601bdda8bc08d6851327949b955cc756f4e69393d56e7ebe73a8271fad19bc
+SHA512: 5c1c6639d547f027f357d1d63e3445c9ecc230156a27586bf620602bad2c125dd4c4acf92b9387e92c25810e1ca5c3d3120359b95cf9701144f8beb4d73a3181
+Size: 1124
+
+Package: u-boot-rock-pi-e
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-e
+Filename: pool/focal/main/u/u-boot-rock-pi-e/u-boot-rock-pi-e_2022.10-1-bb9219a_all.deb
+MD5sum: 01cf5f8a72bd89b008ee79f273e47ce2
+SHA1: 1cd642b21d588d888aeb18dd3e0229a9d7205ca1
+SHA256: 59d87810e4ca08905441e93e22a985ebae23f3888c489cc23157d43c4986c55d
+SHA512: 68b17bc3543957639c0a1927a5224ea2dcb213e96b21ce5ade86569eb78edef0688ea356103c173bce3d70458d986875c7abc3d64cf76f5a12aa3a4632d1e022
+Size: 1096
+
+Package: u-boot-rock-pi-n10-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-pi-n10-legacy
+Filename: pool/focal/main/u/u-boot-rock-pi-n10-legacy/u-boot-rock-pi-n10-legacy_2017.09-1-e940426_all.deb
+MD5sum: 2bef84d6df82740270b0874e52f9b360
+SHA1: a92440584f45c92d7011a05a620e94f8e3da1da5
+SHA256: fe68ea84671f9f991f8b9306c855c190d5d8e2ecf5c4c74c26c4ec613288005e
+SHA512: 02496f5e4fbca7a9b2e0d769c26fd4f3367e468245fe36fb7966acc94e9d414f2e1914bcb57208d2c93889fead0b7304daac29e58e63dfab7d294c369eab5a76
+Size: 1128
+
+Package: u-boot-rock-pi-n10
+Version: 2022.10-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-n10
+Filename: pool/focal/main/u/u-boot-rock-pi-n10/u-boot-rock-pi-n10_2022.10-1-bb9219a_all.deb
+MD5sum: 85f5018c7e4162974589939be82d4cb2
+SHA1: 48448b4e0f085ae58013aae33c4d4737b7a9dbcc
+SHA256: 308dfe1406f0dc9073f710420e61c6151c78d9a94960f1563485c2e641a02e94
+SHA512: 96abf2d3f831173a97d64982535a5afaef0395221e3e734d62e97466bbc69196a33a499c57f8b205cb23182dc9e30c398e331baa85ea5aee3bd691e7c04aab90
+Size: 1108
+
+Package: u-boot-rock-pi-s-v20
+Version: 2017.09-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3308
+Description: Radxa virtual U-Boot package for rock-pi-s-v20
+Filename: pool/focal/main/u/u-boot-rock-pi-s-v20/u-boot-rock-pi-s-v20_2017.09-1-f60a0f3_all.deb
+MD5sum: 2949d4cfd61746d96ebb280323129910
+SHA1: e5e2efb70b39fc6211e1960a4550f372217d870e
+SHA256: acddfb1dbfa4d25ba457abc1773b1a1358f7405fe0bd5e60c81caaa098f5a692
+SHA512: 685b2cd52a52019fd27e0f3afd22d7d35624bf18a22a3f7a3f50aee9a9754da2dc547405a5b684179a0b050bc1f3519b82ccb47657e40cb293371af23f8d6671
+Size: 1104
+
+Package: u-boot-rock-pi-s
+Version: 2017.09-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3308
+Conflicts: u-boot-rock-pi-s-v20
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3308
+Description: Radxa virtual U-Boot package for rock-pi-s
+Filename: pool/focal/main/u/u-boot-rock-pi-s/u-boot-rock-pi-s_2017.09-1-f60a0f3_all.deb
+MD5sum: 89819c3676bdbff5be6c95d35899f0ef
+SHA1: bebb90d653077af3090c88b2071513cbca7e51e3
+SHA256: b96f948696d0ea7ceb465b895bb79490e161d6309ca96ac8f4c053a6c968867c
+SHA512: 8fc759f63c3637068449330140646242ca79e8f31aa0219461c06886812b48b1c8d65c49b1578c0c2f9b5502667c296abf4337431a4e25840adf6906561c173d
+Size: 1108
+

@@ -1,0 +1,38 @@
+Origin: Radxa
+Label: Freight
+Suite: amlogic-bullseye
+Codename: amlogic-bullseye
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Components: main 
+Architectures: all arm64
+Date: Tue, 28 Feb 2023 10:53:09 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
+MD5Sum:
+ 6f2a8b1d816c5fd24fe6cab74a6afa2c 2234 main/binary-all/Packages
+ b04ea83dd12d24f92c330660a365ebe0 925 main/binary-all/Packages.gz
+ a88084ff71d87c697f73c1705891cc19 210 main/binary-all/Release
+ 6f2a8b1d816c5fd24fe6cab74a6afa2c 2234 main/binary-arm64/Packages
+ b04ea83dd12d24f92c330660a365ebe0 925 main/binary-arm64/Packages.gz
+ 9058cf816da1d0c1bfdbfc997d0bc128 212 main/binary-arm64/Release
+SHA1:
+ 700ef31846f1ee65a38d66a6523e1a94ff617839 2234 main/binary-all/Packages
+ fa6e16ff1e55968ac0cdadb40326ca304f3af117 925 main/binary-all/Packages.gz
+ 2e11fcd0e8a7f056a20a3f615a41716c927a8f81 210 main/binary-all/Release
+ 700ef31846f1ee65a38d66a6523e1a94ff617839 2234 main/binary-arm64/Packages
+ fa6e16ff1e55968ac0cdadb40326ca304f3af117 925 main/binary-arm64/Packages.gz
+ 0334c7a3179cf1cd5ac047849a6703b14c963f53 212 main/binary-arm64/Release
+SHA256:
+ da1e54cf0e2dffdd72d3e252e76b99a1496623bad381f0029b45ee1c4ad0d36a 2234 main/binary-all/Packages
+ 4115e5aedd36ce13d2e1e8a738d79d1310135349320a2928487f50d966ab1be4 925 main/binary-all/Packages.gz
+ a325ed9eac11ba2683c04b94c819d9226ed261fa501c7049f84327297bf788ef 210 main/binary-all/Release
+ da1e54cf0e2dffdd72d3e252e76b99a1496623bad381f0029b45ee1c4ad0d36a 2234 main/binary-arm64/Packages
+ 4115e5aedd36ce13d2e1e8a738d79d1310135349320a2928487f50d966ab1be4 925 main/binary-arm64/Packages.gz
+ 6f7ea515277c5c3cdbc0a08ed29056457c374793056cc4fd9dee2d3faf72a3c0 212 main/binary-arm64/Release
+SHA512:
+ fe0b246bd8b289b462ce428e9bac6d77a2436d62f8955de15faf89de4c115340e43a57f63d6c3edc9b7905d90626ecad32eafd0b4dc1c0c428d6689ef095e261 2234 main/binary-all/Packages
+ cc1c545d652440393ed19445b919c6d7eee9dc5ca5593fbcd1a524b48d4639e3dcc4f59ebc09e3a42ac8ee4acbd0865c7cc572a1092183df7ca8d2ef0e9f5aae 925 main/binary-all/Packages.gz
+ 2eac8c6dff11a949ee50b66b87ef9d0f3e45d0ca723732e997edff0b137bcc8710d5769a157bb46a820a70f0c7a7892d75b3c9006fa078f1531da8240c7f92be 210 main/binary-all/Release
+ fe0b246bd8b289b462ce428e9bac6d77a2436d62f8955de15faf89de4c115340e43a57f63d6c3edc9b7905d90626ecad32eafd0b4dc1c0c428d6689ef095e261 2234 main/binary-arm64/Packages
+ cc1c545d652440393ed19445b919c6d7eee9dc5ca5593fbcd1a524b48d4639e3dcc4f59ebc09e3a42ac8ee4acbd0865c7cc572a1092183df7ca8d2ef0e9f5aae 925 main/binary-arm64/Packages.gz
+ dd550af5fb572e6caeff1389b5d5af2dd3f0c05155129cfd1ac9f4764a6aa5cb252c1335020c9025acbae4896ab0bce3c951c739d36ecfd5f7e3c7c17d329a4d 212 main/binary-arm64/Release
